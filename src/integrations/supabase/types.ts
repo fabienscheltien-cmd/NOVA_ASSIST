@@ -14,16 +14,359 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      alertes_incoherences: {
+        Row: {
+          created_at: string
+          description: string
+          id: string
+          site_id: string
+          sources: Json
+          statut: string
+          titre: string
+          traitee_at: string | null
+          type: string
+        }
+        Insert: {
+          created_at?: string
+          description: string
+          id?: string
+          site_id: string
+          sources?: Json
+          statut?: string
+          titre: string
+          traitee_at?: string | null
+          type: string
+        }
+        Update: {
+          created_at?: string
+          description?: string
+          id?: string
+          site_id?: string
+          sources?: Json
+          statut?: string
+          titre?: string
+          traitee_at?: string | null
+          type?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "alertes_incoherences_site_id_fkey"
+            columns: ["site_id"]
+            isOneToOne: false
+            referencedRelation: "sites"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      complements: {
+        Row: {
+          created_at: string
+          id: string
+          question: string
+          question_id: string | null
+          reponse: string
+          site_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          question: string
+          question_id?: string | null
+          reponse: string
+          site_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          question?: string
+          question_id?: string | null
+          reponse?: string
+          site_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "complements_question_id_fkey"
+            columns: ["question_id"]
+            isOneToOne: false
+            referencedRelation: "questions_sans_reponse"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "complements_site_id_fkey"
+            columns: ["site_id"]
+            isOneToOne: false
+            referencedRelation: "sites"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      fiches_reflexes: {
+        Row: {
+          created_at: string
+          etapes: Json
+          id: string
+          livret_id: string
+          ordre: number
+          page: number | null
+          quand: string | null
+          site_id: string
+          statut: string
+          titre: string
+          validee_at: string | null
+        }
+        Insert: {
+          created_at?: string
+          etapes?: Json
+          id?: string
+          livret_id: string
+          ordre?: number
+          page?: number | null
+          quand?: string | null
+          site_id: string
+          statut?: string
+          titre: string
+          validee_at?: string | null
+        }
+        Update: {
+          created_at?: string
+          etapes?: Json
+          id?: string
+          livret_id?: string
+          ordre?: number
+          page?: number | null
+          quand?: string | null
+          site_id?: string
+          statut?: string
+          titre?: string
+          validee_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "fiches_reflexes_livret_id_fkey"
+            columns: ["livret_id"]
+            isOneToOne: false
+            referencedRelation: "livrets"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "fiches_reflexes_site_id_fkey"
+            columns: ["site_id"]
+            isOneToOne: false
+            referencedRelation: "sites"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      livret_pages: {
+        Row: {
+          contenu: Json
+          id: string
+          livret_id: string
+          numero: number
+          texte_brut: string
+          titre: string | null
+        }
+        Insert: {
+          contenu?: Json
+          id?: string
+          livret_id: string
+          numero: number
+          texte_brut?: string
+          titre?: string | null
+        }
+        Update: {
+          contenu?: Json
+          id?: string
+          livret_id?: string
+          numero?: number
+          texte_brut?: string
+          titre?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "livret_pages_livret_id_fkey"
+            columns: ["livret_id"]
+            isOneToOne: false
+            referencedRelation: "livrets"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      livrets: {
+        Row: {
+          avertissement: string | null
+          controle: Json | null
+          created_at: string
+          fichier_nom: string
+          fichier_path: string
+          format: string
+          id: string
+          nb_pages: number | null
+          site_id: string
+          statut: string
+          titre: string
+          updated_at: string
+        }
+        Insert: {
+          avertissement?: string | null
+          controle?: Json | null
+          created_at?: string
+          fichier_nom: string
+          fichier_path: string
+          format: string
+          id?: string
+          nb_pages?: number | null
+          site_id: string
+          statut?: string
+          titre: string
+          updated_at?: string
+        }
+        Update: {
+          avertissement?: string | null
+          controle?: Json | null
+          created_at?: string
+          fichier_nom?: string
+          fichier_path?: string
+          format?: string
+          id?: string
+          nb_pages?: number | null
+          site_id?: string
+          statut?: string
+          titre?: string
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "livrets_site_id_fkey"
+            columns: ["site_id"]
+            isOneToOne: false
+            referencedRelation: "sites"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      questions_sans_reponse: {
+        Row: {
+          created_at: string
+          id: string
+          posee_par: string | null
+          question: string
+          reponse: string | null
+          site_id: string
+          statut: string
+          traitee_at: string | null
+          traitee_par: string | null
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          posee_par?: string | null
+          question: string
+          reponse?: string | null
+          site_id: string
+          statut?: string
+          traitee_at?: string | null
+          traitee_par?: string | null
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          posee_par?: string | null
+          question?: string
+          reponse?: string | null
+          site_id?: string
+          statut?: string
+          traitee_at?: string | null
+          traitee_par?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "questions_sans_reponse_site_id_fkey"
+            columns: ["site_id"]
+            isOneToOne: false
+            referencedRelation: "sites"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      site_members: {
+        Row: {
+          site_id: string
+          user_id: string
+        }
+        Insert: {
+          site_id: string
+          user_id: string
+        }
+        Update: {
+          site_id?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "site_members_site_id_fkey"
+            columns: ["site_id"]
+            isOneToOne: false
+            referencedRelation: "sites"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      sites: {
+        Row: {
+          created_at: string
+          id: string
+          nom: string
+          ville: string | null
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          nom: string
+          ville?: string | null
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          nom?: string
+          ville?: string | null
+        }
+        Relationships: []
+      }
+      user_roles: {
+        Row: {
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Insert: {
+          role: Database["public"]["Enums"]["app_role"]
+          user_id: string
+        }
+        Update: {
+          role?: Database["public"]["Enums"]["app_role"]
+          user_id?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      can_read_site: {
+        Args: { _site_id: string; _user_id: string }
+        Returns: boolean
+      }
+      has_role: {
+        Args: {
+          _role: Database["public"]["Enums"]["app_role"]
+          _user_id: string
+        }
+        Returns: boolean
+      }
     }
     Enums: {
-      [_ in never]: never
+      app_role: "super_admin" | "hotesse"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -150,6 +493,8 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      app_role: ["super_admin", "hotesse"],
+    },
   },
 } as const
