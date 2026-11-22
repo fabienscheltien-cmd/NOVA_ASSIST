@@ -1,0 +1,2586 @@
+{
+  "accueil": [
+    {
+      "numero": 1,
+      "titre": "Livret de procédure",
+      "blocs": [
+        { "t": "p", "x": "Livret de procédure" },
+        { "t": "p", "x": "Accueil Seine Avenue" },
+        { "t": "p", "x": "1" },
+        { "t": "image", "path": "images/p1-1.jpg" }
+      ]
+    },
+    {
+      "numero": 2,
+      "titre": "2",
+      "blocs": [
+        { "t": "p", "x": "2" },
+        { "t": "p", "x": "SOMMAIRE" },
+        {
+          "t": "table",
+          "rows": [
+            ["SECTION", "PAGE"],
+            ["Suivi des modifications", "3"],
+            ["CONTACTS CLIENTS/RÉFÉRENTS & HORAIRES", "4"],
+            ["NOVA ACCUEIL ET SERVICES – NOS PRESTATIONS", "5"],
+            ["EXIGENCES CLIENT – IMAGE ET PRÉSENTATION", "6"],
+            ["OUVERTURE DE SITE", "7"],
+            ["FERMETURE DE SITE", "8"],
+            ["COURRIER", "9-10"],
+            ["DÉNOMINATIONS ASSUREONE", "11"],
+            ["COLIS", "12"],
+            ["ACCUEIL DES VISITEURS", "13-14"],
+            ["RESERVATION SALLES", "15-16"],
+            ["ANNEXES", "17-22"]
+          ],
+          "head": true
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "titre": "3",
+      "blocs": [
+        { "t": "p", "x": "3" },
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Date de la mise à jour",
+              "Objet de la mise à jour",
+              "Effectué par",
+              "Visa Client",
+              "Visa Nova"
+            ],
+            ["29/06/2026", "Mise en place nouveau Livret", "Joshua PERSANI", "", ""],
+            ["03/07/2026", "Modification", "Diane KOUBA", "", ""],
+            ["13/07/2026", "Modification", "Diane KOUBA /", "", ""],
+            ["29/07/2026", "MAJ", "Sterenn", "", ""]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "SUIVI DES MODIFICATIONS" }
+      ]
+    },
+    {
+      "numero": 4,
+      "titre": "CONTACTS CLIENTS/RÉFÉRENTS & HORAIRES",
+      "blocs": [
+        {
+          "t": "table",
+          "rows": [
+            ["Nom du site", "Accueil Seine Avenue - Asnières"],
+            ["Adresse", "4-8 Rue Sarah Bernhardt – 92600 Asnières-Sur-Seine"],
+            ["Téléphone accueil", "06 58 01 95 84"],
+            ["Email accueil", "Accueilseineavenue@gmail.com"],
+            ["Horaires d'ouverture", "8h00 – 19h00 du lundi au vendredi"],
+            ["Activité", "Multisite"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "CONTACTS CLIENTS/RÉFÉRENTS & HORAIRES" },
+        {
+          "t": "table",
+          "rows": [
+            ["Nom client", "Téléphone", "Adresse email"],
+            ["Louis MBOCK MBOCK", "", ""]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "Gestionnaire Technique | 01 82 30 53 55" },
+        { "t": "p", "x": "07 82 61 93 73 | Louis.mbock-mbock@esset-pm.com |" },
+        { "t": "table", "rows": [["Clemence VALLS"]], "head": true },
+        {
+          "t": "p",
+          "x": "Alternante en Gestion Technique | 01 40 65 96 10 | Clemence.valls@esset-pm.com |"
+        },
+        {
+          "t": "table",
+          "rows": [
+            ["Poste", "Horaires"],
+            ["Ambassadrice du matin – Sterenn", "8h00 – 16h00"],
+            ["Ambassadrice de l'après-midi – Eve", "11h00-19h00"],
+            ["Contact7", "Coordonnées"],
+            [
+              "Aurélie Godin – Fondatrice & Directrice",
+              "📱 06.62.31.67.82 📧 aurelie.godin@nova-serenity.fr"
+            ],
+            ["Chargée de clientèle – Aurélie Godin", "📱 06.62.31.67.82 📧 manon@nova-serenity.fr"],
+            ["Service planification", "📱 06.62.31.67.82 📧 planning@nova-serenity.fr"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "CONTACTS AGENCE NOVA" },
+        { "t": "p", "x": "4" }
+      ]
+    },
+    {
+      "numero": 5,
+      "titre": "NOVA ACCUEIL ET SERVICES – NOS PRESTATIONS",
+      "blocs": [
+        { "t": "p", "x": "NOVA ACCUEIL ET SERVICES – NOS PRESTATIONS" },
+        {
+          "t": "p",
+          "x": "NOVA Accueil et Services est une agence spécialisée dans les métiers de l'accueil en entreprise."
+        },
+        {
+          "t": "p",
+          "x": "Fondatrice & Directrice : Aurélie Godin | 📧 aurelie.godin@nova-serenity.fr | 📱 06.62.31.67.82"
+        },
+        { "t": "p", "x": "60 rue François 1er, 75008 Paris | www.nova-serenity.fr" },
+        {
+          "t": "table",
+          "rows": [
+            ["Prestation", "Réalisée sur ce site ?"],
+            ["Accueil physique des visiteurs", "✅ OUI"],
+            ["Standard téléphonique nominatif", "❌ NON"],
+            ["Gestion du courrier et recommandés", "✅ OUI"],
+            ["Réception plis et colis (arrivée)", "✅ OUI"],
+            ["Expédition courrier / colis (départ)", "✅ OUI"],
+            ["Réservation salles de réunion", "✅ OUI"],
+            ["Reporting mensuel", "✅ OUI"],
+            ["Gestion des clés", "✅ OUI"],
+            ["Gestion de parking", "❌ NON"],
+            ["Gestion de taxis / véhicules", "✅ OUI"],
+            ["Commande de plateaux repas", "❌ NON"],
+            ["Gestion de voyages", "❌ NON"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "5" }
+      ]
+    },
+    {
+      "numero": 6,
+      "titre": "EXIGENCES CLIENT – IMAGE ET PRÉSENTATION",
+      "blocs": [
+        { "t": "p", "x": "EXIGENCES CLIENT – IMAGE ET PRÉSENTATION" },
+        { "t": "p", "x": "Ce qui est le plus important pour le client" },
+        {
+          "t": "table",
+          "rows": [
+            ["Priorité", "Détail"],
+            [
+              "L'accueil physique",
+              "Accueil chaleureux, immédiat, professionnel à chaque visiteur."
+            ],
+            [
+              "Savoir-être et ponctualité",
+              "Arriver avant l'heure de prise de poste. Attitude exemplaire en toutes circonstances."
+            ],
+            [
+              "Tenue vestimentaire adéquate",
+              "Uniforme complet, soigné, conforme aux exigences NOVA et du client."
+            ],
+            [
+              "Bonne transmission des colis",
+              "Enregistrement systématique, notification immédiate, traçabilité parfaite."
+            ],
+            ["Élément", "Standard requis"],
+            ["Maquillage", "Effet bonne mine, visible mais naturel, sans artifices"],
+            ["Bijoux", "Sobre et discret"],
+            [
+              "Coupe de cheveux",
+              "Cheveux longs : chignon ou queue de cheval haute (pinces interdites) Cheveux courts : visage dégagé, cheveux lissés"
+            ],
+            ["Tenue", "Uniforme complet, escarpins noirs (pas de boots, basket, etc.)"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "FEMME" },
+        { "t": "p", "x": "HOMME" },
+        {
+          "t": "table",
+          "rows": [
+            ["Élément", "Standard requis"],
+            ["Tenue", "Costume noir, chemise blanche, cravate noire ou conforme au souhait client"],
+            [
+              "Chaussures",
+              "Chaussures cirées, ceinture en cuir noir sans marque apparente au niveau de la boucle"
+            ],
+            ["Aspect", "Coupe de cheveux soignée, rasé de près ou barbe taillée parfaitement"]
+          ],
+          "head": true
+        },
+        {
+          "t": "p",
+          "x": "⚠️ Les effets personnels (téléphones, tablettes, etc.) ne sont PAS autorisés à l'accueil"
+        },
+        { "t": "p", "x": "6" }
+      ]
+    },
+    {
+      "numero": 7,
+      "titre": "OUVERTURE DE SITE",
+      "blocs": [
+        { "t": "p", "x": "OUVERTURE DE SITE" },
+        { "t": "p", "x": "Récupérer la clé dans le boîtier sécurisé" },
+        { "t": "p", "x": "Ouvrir l’ensemble des placards de l’accueil." },
+        {
+          "t": "p",
+          "x": "Récupérer le PC portable et le téléphone portable situé dans le 2ᵉ tiroir à droite du bureau."
+        },
+        { "t": "p", "x": "Allumer l’ordinateur et se connecter avec les identifiants" },
+        { "t": "p", "x": "suivants :" },
+        { "t": "p", "x": "Mot de passe : AccueilSA92600!" },
+        { "t": "p", "x": "Allumer le telephone" },
+        { "t": "p", "x": "mot de passe : 2106" },
+        { "t": "p", "x": "Ouvrir Outlook, consulter les e-mails." },
+        { "t": "p", "x": "Depuis l’écran d’accueil, ouvrir les outils suivants :" },
+        { "t": "p", "x": "- Fichier Excel annuaire du coworking" },
+        { "t": "p", "x": "- Fichier Excel Nova Matrice version 1 visiteur badges" },
+        { "t": "p", "x": "Ouvrir l'agenda Outlook." },
+        { "t": "p", "x": "- Sélectionner la date du jour." },
+        { "t": "p", "x": "- Vérifier les réservations pour :" },
+        { "t": "p", "x": "- L’auditorium" },
+        { "t": "p", "x": "- L’OSB" },
+        { "t": "p", "x": "En cas de réservation :" },
+        { "t": "p", "x": "- Installer les affiches avec le nom de la société ayant réservé :" },
+        { "t": "p", "x": "- À l’entrée de l’auditorium" },
+        { "t": "p", "x": "- Dans l’OSB (avec date du jour + horaires de la réservation)" },
+        { "t": "p", "x": "7" }
+      ]
+    },
+    {
+      "numero": 8,
+      "titre": "FERMETURE DE SITE",
+      "blocs": [
+        { "t": "p", "x": "FERMETURE DE SITE" },
+        { "t": "p", "x": "Retirer les affiches de réservation :" },
+        { "t": "p", "x": "- De l’OSB" },
+        { "t": "p", "x": "- De l’auditorium" },
+        { "t": "p", "x": "(Vérifier que la réservation est bien terminée avant retrait.)" },
+        { "t": "p", "x": "En cas de prêt de matériel :" },
+        {
+          "t": "p",
+          "x": "- Remettre la pochette matériel de l’auditorium et/ou les micros dans la régie de l’auditorium."
+        },
+        { "t": "p", "x": "Contrôler que la salle de sport est bien fermée." },
+        { "t": "p", "x": "Si nécessaire, procéder à sa fermeture." },
+        {
+          "t": "p",
+          "x": "Compter le nombre de visiteur en chaque fin de journée et inscrire le nombre dans le dossier de rapport d’activité"
+        },
+        { "t": "p", "x": "Faire un click droit sur le graphique" },
+        {
+          "t": "p",
+          "x": "Mettre le curseur sur « modifier les données » puis diriger la souris vers la droite (sans appuyer) et cliquer sur « modifier les données dans Excel »"
+        },
+        {
+          "t": "p",
+          "x": "Ajouter le nombre dans le tableau (ça s’enregistre automatique dans le PowerPoint)"
+        },
+        { "t": "p", "x": "Éteindre l’ordinateur et le téléphone." },
+        {
+          "t": "p",
+          "x": "Ranger le PC portable et le téléphone (+ son chargeur) dans le 2ᵉ tiroir à droite de l’accueil."
+        },
+        { "t": "p", "x": "Fermer les placards situés derrière le desk à l’aide de la clé." },
+        {
+          "t": "p",
+          "x": "Fermer les placards sur les côtés du bureau d’accueil en appuyant sur les serrures pour les enclencher."
+        },
+        { "t": "p", "x": "Ranger la clé dans le boîtier sécurisé." },
+        { "t": "p", "x": "8" }
+      ]
+    },
+    {
+      "numero": 9,
+      "titre": "9",
+      "blocs": [
+        { "t": "p", "x": "9" },
+        { "t": "p", "x": "COURRIER" },
+        { "t": "p", "x": "Accès aux boîtes aux lettres :" },
+        { "t": "p", "x": "Les clés se trouvent dans le 1er tiroir à droite de l’accueil" },
+        { "t": "p", "x": "(étiquette bleue « boîtes aux lettres »)." },
+        { "t": "p", "x": "Premier passage du matin (vers 09h30)" },
+        { "t": "p", "x": "Le postier dépose la caisse d’envoi sur le côté de l’accueil." },
+        {
+          "t": "p",
+          "x": "Remettre au postier la navette verte ASSUREONE, située dans le 1er tiroir"
+        },
+        { "t": "p", "x": "à droite de l’accueil." },
+        { "t": "p", "x": "Le postier remet en échange le courrier déjà trié pour ASSUREONE." },
+        { "t": "p", "x": "Traitement du courrier ASSUREONE :" },
+        { "t": "p", "x": "Vérifier que tous les courriers sont bien destinés à ASSUREONE." },
+        { "t": "p", "x": "Déposer le courrier dans la boîte aux lettres correspondante." },
+        { "t": "p", "x": "IMPORTANT: AssureOne peut avoir différents noms (voir page 8)." },
+        { "t": "p", "x": "Deuxième passage du matin (entre 10h30 et 11h30)" },
+        { "t": "p", "x": "Le postier apporte :" },
+        { "t": "p", "x": "Le courrier non trié (coworking + autres sociétés)" },
+        { "t": "p", "x": "Les courriers recommandés" },
+        { "t": "p", "x": "Important :" },
+        { "t": "p", "x": "Aucun recommandé ne doit être signé à l’accueil." },
+        { "t": "p", "x": "Gestion des recommandés :" },
+        { "t": "p", "x": "Le postier distribue directement dans les étages autorisés." },
+        { "t": "p", "x": "Cas particuliers :" },
+        { "t": "p", "x": "ASSUREONE : prévenir Osval ou Aurélien pour signature." },
+        { "t": "p", "x": "ABC Coworking : contacter Eli (responsable du coworking)." },
+        { "t": "p", "x": "Sociétés locataires d'ABC Coworking:" },
+        { "t": "p", "x": "Vérifier dans l’annuaire du coworking." },
+        { "t": "p", "x": "Si contact disponible : appeler la société." },
+        { "t": "p", "x": "En cas d’absence de réponse / domiciliation / doute : contacter Eli." },
+        { "t": "p", "x": "Tri du courrier :" },
+        {
+          "t": "p",
+          "x": "Répartir le courrier dans les différentes boîtes aux lettres situées derrière l’accueil."
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "titre": "COURRIER",
+      "blocs": [
+        { "t": "p", "x": "COURRIER" },
+        { "t": "p", "x": "Cas particuliers :" },
+        { "t": "p", "x": "Courrier avec nom sans société :" },
+        { "t": "p", "x": "Rechercher la personne (Google, LinkedIn)." },
+        { "t": "p", "x": "Vérifier dans l’annuaire du coworking." },
+        { "t": "p", "x": "Courrier avec société inconnue :" },
+        { "t": "p", "x": "Vérifier dans l’immeuble et l’annuaire." },
+        { "t": "p", "x": "En cas de doute : demander à Eli." },
+        { "t": "p", "x": "Si non attribuable :" },
+        { "t": "p", "x": "Inscrire « NPAI » sur l’enveloppe" },
+        { "t": "p", "x": "Remettre à La Poste le soir ou le lendemain matin" },
+        { "t": "p", "x": "Courrier Lernergy:" },
+        { "t": "p", "x": "Important: retourner le courrier au facteur en indicant la mention «" },
+        { "t": "p", "x": "NPAI » sur l’enveloppe." },
+        { "t": "p", "x": "3. Passage de l’après-midi (vers 16h30)" },
+        { "t": "p", "x": "Le postier récupère la caisse d’envoi contenant :" },
+        { "t": "p", "x": "Les pochettes des sociétés avec le courrier à expédier" },
+        { "t": "p", "x": "Dans l’après-midi, AssureOne nous remet une pochette verte :" },
+        { "t": "p", "x": "La ranger dans le 1er tiroir à droite de l’accueil" },
+        { "t": "p", "x": "La remettre au postier lors du premier passage du matin" },
+        { "t": "p", "x": "10" }
+      ]
+    },
+    {
+      "numero": 11,
+      "titre": "DÉNOMINATIONS ASSUREONE",
+      "blocs": [
+        { "t": "p", "x": "DÉNOMINATIONS ASSUREONE" },
+        { "t": "p", "x": "Stellantis Assurance" },
+        { "t": "p", "x": "Netvox" },
+        { "t": "p", "x": "Assurance + marque voiture (ex: citrôen Assurance...)" },
+        { "t": "p", "x": "Assurance animalière" },
+        { "t": "p", "x": "AXA" },
+        { "t": "p", "x": "Allianz" },
+        { "t": "p", "x": "Generali" },
+        { "t": "p", "x": "SwissLife" },
+        { "t": "p", "x": "Mercer Gefi" },
+        { "t": "p", "x": "11" }
+      ]
+    },
+    {
+      "numero": 12,
+      "titre": "Aucun colis ne doit être conservé à l’accueil",
+      "blocs": [
+        { "t": "image", "path": "images/p12-1.jpg" },
+        { "t": "p", "x": "Aucun colis ne doit être conservé à l’accueil" },
+        { "t": "p", "x": "L’accueil ne doit pas signer les livraisons, sauf autorisation." },
+        {
+          "t": "p",
+          "x": "Les livreurs doivent obligatoirement se rendre directement dans les étages"
+        },
+        { "t": "p", "x": "concernés :" },
+        { "t": "p", "x": "Stago" },
+        { "t": "p", "x": "Align Technology" },
+        { "t": "p", "x": "Qivy" },
+        { "t": "p", "x": "Tempeol" },
+        { "t": "p", "x": "Compo" },
+        { "t": "p", "x": "Acer" },
+        { "t": "p", "x": "Xerox" },
+        { "t": "p", "x": "Novagraaf" },
+        { "t": "p", "x": "Procédures spécifiques" },
+        { "t": "p", "x": "Colis Coworking" },
+        { "t": "p", "x": "Consulter l’annuaire du coworking" },
+        { "t": "p", "x": "Contacter la personne concernée" },
+        { "t": "p", "x": "Si aucune réponse :" },
+        { "t": "p", "x": "→ Contacter Eli, responsable du coworking" },
+        { "t": "p", "x": "2. AssureOne" },
+        { "t": "p", "x": "Contacter :" },
+        { "t": "p", "x": "Osval" },
+        { "t": "p", "x": "ou Aurélien" },
+        { "t": "p", "x": "Si la société n’est pas précisée sur le colis :" },
+        { "t": "p", "x": "→ Demander au livreur de contacter directement le destinataire." },
+        { "t": "p", "x": "COLIS" },
+        { "t": "p", "x": "12" }
+      ]
+    },
+    {
+      "numero": 13,
+      "titre": "Nom",
+      "blocs": [
+        {
+          "t": "p",
+          "x": "Chaque visiteur doit obligatoirement être enregistré dans le fichier Excel avec les informations suivantes :"
+        },
+        { "t": "p", "x": "Nom" },
+        { "t": "p", "x": "Prénom" },
+        { "t": "p", "x": "Société visitée" },
+        { "t": "p", "x": "Heure d’arrivée" },
+        {
+          "t": "p",
+          "x": "Consulter les 2 affiches récapitulatives affichées sur le desk avec les étages pour chaque société:"
+        },
+        { "t": "p", "x": "Accès direct aux étages" },
+        {
+          "t": "p",
+          "x": "Les visiteurs peuvent être dirigés directement vers les étages correspondants pour les sociétés suivantes :"
+        },
+        { "t": "p", "x": "Stago" },
+        { "t": "p", "x": "Align Technology" },
+        { "t": "p", "x": "Qivy" },
+        { "t": "p", "x": "Acer" },
+        { "t": "p", "x": "Xerox" },
+        { "t": "p", "x": "Novagraaf" },
+        { "t": "p", "x": "Visiteurs à faire patienter à l’accueil" },
+        {
+          "t": "p",
+          "x": "Pour les sociétés suivantes, les visiteurs ne doivent pas monter seuls. Un collaborateur doit venir les chercher à l’accueil :"
+        },
+        { "t": "p", "x": "AssureOne" },
+        { "t": "p", "x": "Coworking" },
+        { "t": "p", "x": "Compo" },
+        { "t": "p", "x": "Procédures spécifiques" },
+        { "t": "p", "x": "AssureOne" },
+        {
+          "t": "p",
+          "x": "Demander impérativement le nom du collaborateur avec lequel le visiteur a rendez-vous"
+        },
+        { "t": "p", "x": "Contacter les services généraux :" },
+        { "t": "p", "x": "Osval (en priorité) ou Aurélien" },
+        { "t": "p", "x": "ACCUEIL VISITEURS" },
+        { "t": "p", "x": "13" }
+      ]
+    },
+    {
+      "numero": 14,
+      "titre": "3.2 ABC Coworking",
+      "blocs": [
+        { "t": "image", "path": "images/p14-1.jpg" },
+        { "t": "p", "x": "3.2 ABC Coworking" },
+        { "t": "p", "x": "Plusieurs sociétés sont présentes dans le coworking :" },
+        { "t": "p", "x": "Demander le nom de la société" },
+        { "t": "p", "x": "Vérifier dans l’annuaire du coworking" },
+        { "t": "p", "x": "Si le numéro de la société est disponible :" },
+        { "t": "p", "x": "→ Les contacter directement" },
+        { "t": "p", "x": "Si :" },
+        { "t": "p", "x": "pas de numéro" },
+        { "t": "p", "x": "personne absente" },
+        { "t": "p", "x": "ou aucune réponse" },
+        { "t": "p", "x": "→ Contacter Eli, responsable du coworking" },
+        { "t": "p", "x": "Attention :" },
+        { "t": "p", "x": "Certaines sociétés sont uniquement en domiciliation." },
+        {
+          "t": "p",
+          "x": "→ Elles ne disposent pas de bureaux sur place (réception de courrier uniquement)."
+        },
+        { "t": "p", "x": "3.3 Compo" },
+        { "t": "p", "x": "Demander le nom du collaborateur visité" },
+        { "t": "p", "x": "Contacter Barbara" },
+        { "t": "p", "x": "ACCUEIL VISITEURS" },
+        { "t": "p", "x": "14" }
+      ]
+    },
+    {
+      "numero": 15,
+      "titre": "1. Salles disponibles à la réservation",
+      "blocs": [
+        { "t": "image", "path": "images/p15-1.jpg" },
+        { "t": "p", "x": "1. Salles disponibles à la réservation" },
+        { "t": "p", "x": "Les salles suivantes peuvent être réservées via l’accueil :" },
+        { "t": "p", "x": "Auditorium" },
+        { "t": "p", "x": "OSB (dans le RIE)" },
+        { "t": "p", "x": "Salle Fitness" },
+        { "t": "p", "x": "Gaming Zone (dans la cafétaria)" },
+        { "t": "p", "x": "2. Modalités de réservation" },
+        { "t": "p", "x": "Les réservations peuvent être effectuées :" },
+        { "t": "p", "x": "Directement auprès de l’accueil" },
+        { "t": "p", "x": "Par e-mail" },
+        { "t": "p", "x": "3. Vérification des disponibilités" },
+        { "t": "p", "x": "Avant toute réservation :" },
+        { "t": "p", "x": "→ Vérifier la disponibilité de la salle dans l’agenda Outlook" },
+        { "t": "p", "x": "4. Informations obligatoires pour une réservation" },
+        { "t": "p", "x": "Pour enregistrer une réservation, les éléments suivants sont requis :" },
+        { "t": "p", "x": "- Date" },
+        { "t": "p", "x": "- Horaires" },
+        { "t": "p", "x": "- Nom de la société" },
+        { "t": "p", "x": "- Nom et prénom du demandeur" },
+        { "t": "p", "x": "- Adresse e-mail" },
+        { "t": "p", "x": "L’auditorium peut être configuré de deux façons :" },
+        { "t": "p", "x": "Auditorium complet" },
+        { "t": "p", "x": "Auditorium divisé :" },
+        { "t": "p", "x": "Côté fitness / lounge" },
+        { "t": "p", "x": "Côté gradins" },
+        {
+          "t": "p",
+          "x": "Toujours demander si la réservation concerne l’auditorium complet ou une partie uniquement"
+        },
+        { "t": "p", "x": "RÉSERVATION SALLES" },
+        { "t": "p", "x": "15" }
+      ]
+    },
+    {
+      "numero": 16,
+      "titre": "Si un cloisonnement est demandé :",
+      "blocs": [
+        { "t": "p", "x": "Si un cloisonnement est demandé :" },
+        { "t": "p", "x": "→ Contacter: Vinci" },
+        { "t": "p", "x": "Nicolas" },
+        { "t": "p", "x": "Ou Fatih" },
+        { "t": "p", "x": "En cas de demande de matériel pour :" },
+        { "t": "p", "x": "- Projection" },
+        { "t": "p", "x": "- Micros" },
+        { "t": "p", "x": "Prendre les clés de l’auditorium :" },
+        { "t": "p", "x": "→ Situées dans le premier tiroir à droite de l’accueil" },
+        { "t": "p", "x": "→ Clé identifiable : grosse clé noire" },
+        { "t": "p", "x": "Ouvrir la régie (salle en haut des gradins)" },
+        { "t": "p", "x": "Remettre au collaborateur :" },
+        { "t": "p", "x": "→ La pochette « Salle Lounge »" },
+        {
+          "t": "p",
+          "x": "Informer systématiquement le collaborateur de nous restituer la pochette et/ou micros à la fin de la réunion"
+        },
+        { "t": "p", "x": "Remettre le matériel dans la régie après la réunion" },
+        { "t": "p", "x": "Mettre les micros en charge après utilisation" },
+        { "t": "p", "x": "Projection" },
+        { "t": "p", "x": "Le branchement se fait au niveau du sol" },
+        { "t": "p", "x": "Soulever la trappe prévue à cet effet" },
+        { "t": "p", "x": "Micros" },
+        { "t": "p", "x": "Allumer le micro via le bouton ON" },
+        { "t": "p", "x": "Le micro est automatiquement connecté au système audio de la salle" },
+        { "t": "p", "x": "RÉSERVATION SALLES" },
+        { "t": "p", "x": "16" }
+      ]
+    },
+    {
+      "numero": 17,
+      "titre": "17",
+      "blocs": [
+        { "t": "p", "x": "17" },
+        { "t": "p", "x": "ANNEXES" }
+      ]
+    },
+    {
+      "numero": 18,
+      "titre": "Les fondamentaux de l'accueil de qualité chez NOVA",
+      "blocs": [
+        {
+          "t": "table",
+          "rows": [
+            ["Bon réflexe", "Comment"],
+            [
+              "Sourire et regard accueillant",
+              "Accueillir chaque visiteur avec le sourire dès son entrée, maintenir un contact visuel bienveillant."
+            ],
+            [
+              "Se lever pour accueillir",
+              "Se lever ou se redresser pour saluer un visiteur qui arrive au comptoir."
+            ],
+            ["Phrase d'accueil", "« Le 31, [Votre Prénom], en quoi puis-je vous aider ? »"],
+            [
+              "Écoute active",
+              "Laisser le visiteur parler sans l'interrompre, reformuler si nécessaire."
+            ],
+            [
+              "Tenir informé",
+              "Si vous devez faire patienter : « Je vous informe dès que possible, merci de patienter. »"
+            ],
+            ["Tenue soignée", "Tenue professionnelle propre, coiffure soignée, badge visible."],
+            [
+              "Discrétion",
+              "Ne pas divulguer d'informations confidentielles sur les employés ou l'organisation."
+            ],
+            [
+              "Poste rangé",
+              "Maintenir le comptoir propre, ordonné et sans affaires personnelles visibles."
+            ],
+            ["À éviter", "Pourquoi"],
+            [
+              "Téléphone personnel visible",
+              "Le téléphone personnel reste dans le sac pendant les heures de travail."
+            ],
+            ["Manger au poste", "Ne jamais manger ou boire visiblement au comptoir."],
+            [
+              "Ignorer un visiteur",
+              "Même au téléphone, signaler sa présence avec un geste ou un regard."
+            ],
+            [
+              "Donner une info sans vérifier",
+              "Ne jamais confirmer la présence d'une personne sans avoir vérifié au préalable."
+            ],
+            [
+              "Discuter avec des collègues",
+              "Éviter les conversations privées prolongées visibles depuis l'accueil."
+            ]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "Les fondamentaux de l'accueil de qualité chez NOVA" },
+        { "t": "p", "x": "✅ CE QUE JE FAIS – Les bons réflexes" },
+        { "t": "p", "x": "❌ CE QUE JE NE FAIS PAS – Les erreurs à éviter" },
+        { "t": "p", "x": "FICHE RÉFLEXE – BIEN ACCUEILLIR" },
+        { "t": "p", "x": "18" }
+      ]
+    },
+    {
+      "numero": 19,
+      "titre": "Phrases essentielles pour accueillir un visiteur anglophone",
+      "blocs": [
+        {
+          "t": "table",
+          "rows": [
+            ["Situation", "Phrase en anglais"],
+            [
+              "Accueil à l'arrivée",
+              "« Good morning / Good afternoon, welcome to Le 31. How can I help you? »"
+            ],
+            ["Demander le nom", "« Could I have your name, please? »"],
+            ["Demander la société", "« Which company are you from? »"],
+            ["Demander l'objet", "« Do you have an appointment? Who are you here to see? »"],
+            ["Faire patienter", "« Please take a seat. I will let them know you are here. »"],
+            ["La personne arrive", "« Mr/Ms [Name] is on their way. It should not be long. »"],
+            [
+              "Personne absente",
+              "« I'm sorry, [Name] is not available. Would you like to leave a message? »"
+            ],
+            ["Standard – prise d'appel", "« Good morning, Le 31, how can I direct your call? »"],
+            ["Mettre en attente", "« Please hold the line, I am putting you through. »"],
+            [
+              "Ligne occupée",
+              "« I'm sorry, the line is busy. Would you like to call back later? »"
+            ],
+            [
+              "Réceptionner un colis",
+              "« I will sign for this parcel and make sure it reaches the right person. »"
+            ],
+            ["Au revoir", "« Have a great day! Goodbye! »"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "Phrases essentielles pour accueillir un visiteur anglophone" },
+        { "t": "p", "x": "FICHE RÉFLEXE – ACCUEIL EN ANGLAIS" },
+        {
+          "t": "p",
+          "x": "💡 En cas de difficulté : « One moment please, I will find someone who can help you. »"
+        },
+        { "t": "p", "x": "19" }
+      ]
+    },
+    {
+      "numero": 20,
+      "titre": "Site : 4-8 Rue Sarah Bernhardt, 92600 Asnières-Sur-Seine",
+      "blocs": [
+        {
+          "t": "table",
+          "rows": [
+            ["Service", "Numéro"],
+            ["🚑 SAMU – Urgences médicales", "15"],
+            ["🚒 Pompiers", "18"],
+            ["🚓 Police – Gendarmerie", "17"],
+            ["🆘 Numéro européen d'urgence", "112"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "Site : 4-8 Rue Sarah Bernhardt, 92600 Asnières-Sur-Seine" },
+        { "t": "p", "x": "🚨 URGENCES NATIONALES" },
+        { "t": "p", "x": "FICHE RÉFLEXE – NUMÉROS D'URGENCE" },
+        { "t": "p", "x": "APPELS DIFFICILES & AGRESSIVITÉ" },
+        {
+          "t": "table",
+          "rows": [
+            ["Étape", "Action"],
+            [
+              "ÉTAPE 1 – Rester calme",
+              "Ne pas hausser la voix. Respirer. Adopter un ton posé et professionnel."
+            ],
+            [
+              "ÉTAPE 2 – Nommer la situation",
+              "« Je comprends votre frustration, je vais faire mon possible pour vous aider. »"
+            ],
+            [
+              "ÉTAPE 3 – Poser un cadre",
+              "« Je ne suis pas en mesure de continuer cet échange dans ces conditions. »"
+            ],
+            [
+              "ÉTAPE 4 – Raccrocher si nécessaire",
+              "Vous avez le droit de raccrocher face à une agression verbale. Prévenez Aurélie Godin immédiatement."
+            ],
+            [
+              "ÉTAPE 5 – Transférer",
+              "Si la demande dépasse vos attributions : mettre en relation avec la personne compétente."
+            ],
+            ["Règle", "Détail"],
+            [
+              "Rester derrière le comptoir",
+              "Ne jamais quitter la protection du comptoir face à une personne agitée."
+            ],
+            [
+              "Ne pas argumenter",
+              "Acquiescez partiellement : « Je vous entends, laissez-moi vérifier. »"
+            ],
+            [
+              "Alerter discrètement",
+              "Appelez la sécurité ou le 17 discrètement. Prétextez « vérifier une information »."
+            ],
+            ["Ne pas rester seul(e)", "Si la situation dégénère, demandez de l'aide immédiatement."]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "🚪 EN PRÉSENTIEL" },
+        { "t": "p", "x": "📞 AU TÉLÉPHONE" },
+        {
+          "t": "p",
+          "x": "⚠️ Après tout incident : rédigez un compte-rendu et envoyez-le à Aurélie Godin – 06.62.31.67.82"
+        },
+        { "t": "p", "x": "20" }
+      ]
+    },
+    {
+      "numero": 21,
+      "titre": "PROCÉDURE – ABSENCE & RETARD",
+      "blocs": [
+        { "t": "p", "x": "PROCÉDURE – ABSENCE & RETARD" },
+        { "t": "p", "x": "Règles NOVA Accueil et Services – à appliquer impérativement" },
+        { "t": "p", "x": "⏰ EN CAS DE RETARD" },
+        {
+          "t": "table",
+          "rows": [
+            ["Règle", "Détail"],
+            [
+              "Prévenir AVANT la prise de poste",
+              "Appeler Aurélie Godin AU PLUS TARD 30 minutes avant votre heure de prise de poste. Un SMS ne suffit pas : vous devez appeler."
+            ],
+            ["N° Aurélie Godin", "📱 06.62.31.67.82"],
+            [
+              "Ce qu'il faut indiquer",
+              "1. Votre nom 2. Le site (Le 31) 3. Votre heure de prise de poste 4. Durée estimée du retard 5. La cause"
+            ],
+            [
+              "En cas de non-réponse",
+              "Laisser un message vocal détaillé + envoyer un SMS. Continuer à rappeler toutes les 10 minutes."
+            ]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "🤒 EN CAS D'ABSENCE" },
+        {
+          "t": "table",
+          "rows": [
+            ["Type", "Procédure"],
+            [
+              "Absence prévisible (congés, médecin)",
+              "Informer Aurélie Godin au minimum 48h à l'avance par téléphone + confirmation écrite."
+            ],
+            [
+              "Absence imprévue (maladie, urgence)",
+              "Appeler Aurélie Godin DÈS que vous savez que vous ne pouvez pas assurer votre poste."
+            ],
+            ["Arrêt maladie", "Transmettre le volet 3 de l'arrêt de travail à NOVA dans les 48h."],
+            [
+              "Justificatif obligatoire",
+              "Sans justificatif dans les 48h, l'absence sera considérée comme injustifiée."
+            ]
+          ],
+          "head": true
+        },
+        {
+          "t": "p",
+          "x": "Le poste d'accueil doit être couvert à chaque instant. Votre prévenance permet à NOVA d'organiser un remplacement."
+        },
+        { "t": "p", "x": "21" }
+      ]
+    },
+    {
+      "numero": 22,
+      "titre": "Nature de l'engagement",
+      "blocs": [
+        { "t": "p", "x": "Nature de l'engagement" },
+        {
+          "t": "p",
+          "x": "Le/la salarié(e) s'engage à observer la discrétion la plus stricte sur toutes les informations se rapportant aux activités de la Foncière SISIMMO et de toute société occupant le site Le 31 auxquelles il/elle aura, directement ou indirectement, accès dans le cadre de ses fonctions d'Ambassadrice/eur d'accueil ou en raison de sa présence dans l'effectif."
+        },
+        { "t": "p", "x": "Portée de l'engagement" },
+        {
+          "t": "p",
+          "x": "La discrétion concerne notamment les informations et données relatives à la Foncière SISIMMO ainsi que celles de ses clients. Par conséquent, aucune divulgation externe de ces informations et données par le/la salarié(e) ne sera possible par quelque manière et canal que ce soit."
+        },
+        { "t": "p", "x": "Durée de l'engagement" },
+        {
+          "t": "p",
+          "x": "La discrétion durera pendant toute la durée du contrat et postérieurement à sa rupture, peu importent ses causes et modalités."
+        },
+        { "t": "p", "x": "CLAUSE DE CONFIDENTIALITÉ" },
+        {
+          "t": "table",
+          "rows": [
+            ["Ambassadrice / Ambassadeur", "Représentante NOVA"],
+            [
+              "/ Nom & Prénom : _______________________ / Fonction : _______________________ / Date : _______________________ / Signature : /",
+              "Aurélie Godin – Directrice NOVA / Nom & Prénom : _______________________ / Fonction : _______________________ / Date : _______________________ / Signature : /"
+            ]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "NOVA Accueil et Services – Engagement de discrétion" },
+        { "t": "p", "x": "22" }
+      ]
+    }
+  ],
+  "conciergerie": [
+    {
+      "numero": 1,
+      "titre": "LIVRET DE PROCÉDURES",
+      "blocs": [
+        { "t": "image", "path": "images/p1-1.jpg" },
+        { "t": "p", "x": "LIVRET DE PROCÉDURES" },
+        { "t": "p", "x": "Conciergerie By NOVA" },
+        { "t": "p", "x": "Point Multiservices" },
+        { "t": "image", "path": "images/p1-2.jpg" },
+        { "t": "p", "x": "Pressing &" },
+        { "t": "p", "x": "Blanchisserie" },
+        { "t": "image", "path": "images/p1-3.jpg" },
+        { "t": "p", "x": "Cordonnerie" },
+        { "t": "image", "path": "images/p1-4.jpg" },
+        { "t": "p", "x": "Lavage" },
+        { "t": "p", "x": "auto-moto" },
+        { "t": "image", "path": "images/p1-5.jpg" },
+        { "t": "p", "x": "Mini-boutique" },
+        { "t": "image", "path": "images/p1-6.jpg" },
+        { "t": "p", "x": "Entretien" },
+        { "t": "p", "x": "vélo" },
+        { "t": "image", "path": "images/p1-7.jpg" },
+        { "t": "p", "x": "Billetterie" },
+        { "t": "p", "x": "Site Seine Avenue" },
+        { "t": "p", "x": "2 rue Sarah Bernhardt – 92600 Asnières-sur-Seine" },
+        { "t": "p", "x": "Document interne — Édition septembre 2026 — Version 2.1" },
+        {
+          "t": "p",
+          "x": "NOVA Accueil et Services | 60 rue François 1er, 75008 Paris | www.nova-serenity.fr"
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "titre": "SOMMAIRE",
+      "blocs": [
+        { "t": "p", "x": "SOMMAIRE" },
+        { "t": "image", "path": "images/p2-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "2" },
+        {
+          "t": "table",
+          "rows": [
+            ["Section", "Page"],
+            ["Suivi des modifications", "3"],
+            ["Contacts & référents", "4"],
+            ["La Conciergerie By NOVA – services & principes", "5"],
+            ["Le parcours d’une commande", "6"],
+            ["1. Pressing & Blanchisserie", "7"],
+            ["2. Cordonnerie", "11"],
+            ["3. Lavage auto-moto", "13"],
+            ["4. Mini-boutique", "14"],
+            ["5. Entretien vélo", "15"],
+            ["6. Billetterie", "16"],
+            ["Grilles tarifaires", "17"],
+            ["Annexes", "21"],
+            ["Fiches réflexes", "22"],
+            ["Procédure absence et retard", "27"],
+            ["Modèle de ticket de dépôt", "28"],
+            ["Clause de confidentialité", "29"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "À QUI S’ADRESSE CE LIVRET ?" },
+        {
+          "t": "p",
+          "x": "À toute personne assurant une vacation à la Conciergerie By NOVA : titulaire, volant·e ou remplaçant·e. Il reste en permanence au poste et doit être lu avant toute première prise de poste."
+        },
+        {
+          "t": "p",
+          "x": "Légende Les mentions sur fond jaune signalent une information à compléter ou une procédure à valider par la direction NOVA."
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "titre": "SUIVI DES MODIFICATIONS",
+      "blocs": [
+        { "t": "p", "x": "SUIVI DES MODIFICATIONS" },
+        { "t": "p", "x": "Toute modification doit être tracée et validée par NOVA" },
+        { "t": "image", "path": "images/p3-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "3" },
+        {
+          "t": "table",
+          "rows": [
+            ["Date", "Objet de la mise à jour", "Effectué par", "Visa responsable", "Visa NOVA"],
+            [
+              "15/09/2026",
+              "Refonte du cahier de procédures en livret : process, contacts, tarifs, fiches réflexes",
+              "",
+              "",
+              ""
+            ],
+            [
+              "15/09/2026",
+              "Grilles : coût prestataire + 10 % ; ajout retouches ; process Cleamy et Clean Ta Caisse",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "head": true
+        },
+        {
+          "t": "p",
+          "x": "⚠ Le livret est un document vivant : toute évolution de procédure, de tarif, de prestataire ou de contact doit y être reportée immédiatement, puis transmise à la direction NOVA."
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "titre": "CONTACTS & RÉFÉRENTS",
+      "blocs": [
+        { "t": "p", "x": "CONTACTS & RÉFÉRENTS" },
+        { "t": "p", "x": "Qui appeler, pour quoi" },
+        { "t": "image", "path": "images/p4-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "4" },
+        { "t": "p", "x": "IDENTITÉ DE LA CONCIERGERIE" },
+        {
+          "t": "table",
+          "rows": [
+            ["Nom", "Conciergerie By NOVA – Point Multiservices"],
+            ["Site", "Seine Avenue – 2 rue Sarah Bernhardt – 92600 Asnières-sur-Seine"],
+            ["Téléphone conciergerie", "06 58 01 95 84"],
+            ["E-mail conciergerie", "accueilseineavenue@gmail.com"],
+            ["Horaires d’ouverture", "À COMPLÉTER"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "NOVA ACCUEIL ET SERVICES" },
+        {
+          "t": "table",
+          "rows": [
+            ["Contact", "Coordonnées", "À contacter pour"],
+            [
+              "Aurélie GODIN / Fondatrice & Présidente",
+              "06 62 31 67 82 / aurelie.godin@nova-serenity.fr",
+              "Facturation, liens de paiement, validation des devis hors grille, litiges, absences"
+            ],
+            [
+              "Sterenn JAFFRE / Responsable de site Seine Avenue",
+              "Coordonnées à compléter",
+              "Organisation quotidienne, ruptures de stock, remontées terrain"
+            ],
+            ["Service planification", "planning@nova-serenity.fr", "Plannings, remplacements"],
+            [
+              "Siège",
+              "60 rue François 1er – 75008 Paris / www.nova-serenity.fr",
+              "Courrier administratif"
+            ]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "PRESTATAIRES PAR SERVICE" },
+        {
+          "t": "table",
+          "rows": [
+            ["Service", "Prestataire", "Canal de commande", "Contact"],
+            [
+              "Pressing, cordonnerie, retouches",
+              "Cleamy",
+              "Site « Cleamy Corporate »",
+              "corporate@cleamy.com / 01 84 80 50 08"
+            ],
+            [
+              "Lavage auto-moto",
+              "Clean Ta Caisse",
+              "Par e-mail – paiement avant prestation",
+              "contact@clean-ta-caisse.fr"
+            ],
+            ["Mini-boutique", "Stock NOVA en réserve", "Rupture → responsable", "—"],
+            ["Entretien vélo", "À définir", "À définir", "À compléter"],
+            ["Billetterie", "Conciergerie Volume 2", "Par e-mail", "laconciergerie@volume-2.com"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "GESTIONNAIRE DE L’IMMEUBLE" },
+        {
+          "t": "table",
+          "rows": [
+            [
+              "ESSET Property Management",
+              "Louis MBOCK MBOCK – Property manager",
+              "louis.mbock-mbock@esset-pm.com"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "t": "p",
+          "x": "Urgence : SAMU 15 | Police 17 | Pompiers 18 | Européen 112 — puis prévenir Aurélie GODIN (06 62 31 67 82)."
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "titre": "LA CONCIERGERIE BY NOVA",
+      "blocs": [
+        { "t": "p", "x": "LA CONCIERGERIE BY NOVA" },
+        { "t": "p", "x": "Un référentiel unique pour une qualité de service homogène" },
+        { "t": "image", "path": "images/p5-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "5" },
+        {
+          "t": "p",
+          "x": "Ce livret définit le fonctionnement de l’ensemble des activités de la Conciergerie By NOVA. Il garantit une qualité de service homogène, une expertise complète et la traçabilité de chaque opération. Il s’applique à toute personne intervenant à la conciergerie (titulaire, volant·e ou remplaçant·e) et doit être lu avant toute première prise de poste."
+        },
+        { "t": "p", "x": "LES SIX SERVICES" },
+        { "t": "image", "path": "images/p5-2.jpg" },
+        { "t": "p", "x": "Pressing & Blanchisserie" },
+        { "t": "p", "x": "Nettoyage à sec, blanchisserie, repassage, retouches" },
+        { "t": "p", "x": "Cleamy" },
+        { "t": "image", "path": "images/p5-3.jpg" },
+        { "t": "p", "x": "Cordonnerie" },
+        { "t": "p", "x": "Réparation, entretien, rénovation d’articles en cuir" },
+        { "t": "p", "x": "Cleamy" },
+        { "t": "image", "path": "images/p5-4.jpg" },
+        { "t": "p", "x": "Lavage auto-moto" },
+        { "t": "p", "x": "Nettoyage intérieur / extérieur, deux-roues, options" },
+        { "t": "p", "x": "Clean Ta Caisse" },
+        { "t": "image", "path": "images/p5-5.jpg" },
+        { "t": "p", "x": "Mini-boutique" },
+        { "t": "p", "x": "Articles de dépannage : hygiène, couture, serviettes" },
+        { "t": "p", "x": "Stock NOVA" },
+        { "t": "image", "path": "images/p5-6.jpg" },
+        { "t": "p", "x": "Entretien vélo" },
+        { "t": "p", "x": "Entretien courant, réparation, réglages" },
+        { "t": "p", "x": "Service à construire" },
+        { "t": "image", "path": "images/p5-7.jpg" },
+        { "t": "p", "x": "Billetterie" },
+        { "t": "p", "x": "Concerts, festivals, sport, théâtre" },
+        { "t": "p", "x": "Conciergerie Volume 2" },
+        { "t": "p", "x": "LES 5 RÈGLES D’OR" },
+        {
+          "t": "table",
+          "rows": [
+            ["Accueil", "Sourire, politesse et écoute active du besoin client."],
+            [
+              "Traçabilité",
+              "Tout article, véhicule ou prestation pris en charge fait l’objet d’un ticket ou bon numéroté, et d’une ligne dans le fichier « Gestion conciergerie »."
+            ],
+            [
+              "Accord préalable",
+              "Aucune prestation n’est lancée ni facturée sans accord écrit du client sur le tarif (réponse au mail de confirmation)."
+            ],
+            [
+              "Caisse",
+              "La caisse est vérifiée en début et en fin de journée par le responsable de service."
+            ],
+            [
+              "Dommages",
+              "Tout dommage constaté à la réception d’un article est signalé au client, et le prestataire en est informé afin d’ouvrir un litige."
+            ]
+          ],
+          "head": true
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "titre": "LE PARCOURS D’UNE COMMANDE",
+      "blocs": [
+        { "t": "p", "x": "LE PARCOURS D’UNE COMMANDE" },
+        { "t": "p", "x": "Le fil conducteur commun à tous les services" },
+        { "t": "image", "path": "images/p6-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "6" },
+        { "t": "p", "x": "PHASE 1" },
+        { "t": "p", "x": "PRISE EN CHARGE" },
+        { "t": "p", "x": "1" },
+        { "t": "p", "x": "Accueillir & qualifier" },
+        {
+          "t": "p",
+          "x": "Accueillir le client, identifier le service et la prestation souhaitée."
+        },
+        { "t": "p", "x": "2" },
+        { "t": "p", "x": "Identifier le client" },
+        { "t": "p", "x": "Nom, prénom et adresse e-mail — systématiquement." },
+        { "t": "p", "x": "3" },
+        { "t": "p", "x": "Contrôler & chiffrer" },
+        {
+          "t": "p",
+          "x": "Inspecter l’article en présence du client, noter les anomalies, consulter la grille tarifaire."
+        },
+        { "t": "p", "x": "PHASE 2" },
+        { "t": "p", "x": "VALIDATION" },
+        { "t": "p", "x": "4" },
+        { "t": "p", "x": "Envoyer le tarif par e-mail" },
+        { "t": "p", "x": "Récapitulatif de la prestation et du prix TTC." },
+        { "t": "p", "x": "5" },
+        { "t": "p", "x": "Obtenir l’accord écrit" },
+        { "t": "p", "x": "Rien ne part chez le prestataire sans la réponse écrite du client." },
+        { "t": "p", "x": "6" },
+        { "t": "p", "x": "Enregistrer" },
+        {
+          "t": "p",
+          "x": "Créer la ligne dans « Gestion conciergerie » et établir le ticket numéroté."
+        },
+        { "t": "p", "x": "PHASE 3" },
+        { "t": "p", "x": "EXÉCUTION" },
+        { "t": "p", "x": "7" },
+        { "t": "p", "x": "Commander au prestataire" },
+        { "t": "p", "x": "Cleamy Corporate, e-mail Volume 2… selon le service." },
+        { "t": "p", "x": "8" },
+        { "t": "p", "x": "Suivre" },
+        { "t": "p", "x": "Mettre à jour le statut dans « Gestion conciergerie » à chaque étape." },
+        { "t": "p", "x": "PHASE 4" },
+        { "t": "p", "x": "RESTITUTION" },
+        { "t": "p", "x": "9" },
+        { "t": "p", "x": "Contrôler le retour" },
+        { "t": "p", "x": "Contrôle visuel de conformité avant tout contact client." },
+        { "t": "p", "x": "10" },
+        { "t": "p", "x": "Informer & restituer" },
+        { "t": "p", "x": "E-mail « commande disponible », remise et vérification avec le client." },
+        { "t": "p", "x": "11" },
+        { "t": "p", "x": "Facturer" },
+        {
+          "t": "p",
+          "x": "Transmettre à Aurélie GODIN : nom-prénom, e-mail, montant. Paiement par carte bancaire."
+        },
+        { "t": "p", "x": "LES OUTILS DU POSTE" },
+        {
+          "t": "table",
+          "rows": [
+            ["Outil", "Usage"],
+            [
+              "Excel « Gestion conciergerie »",
+              "Registre unique : commandes, clients, statuts (commandé / réceptionné / restitué / facturé)"
+            ],
+            ["Tickets numérotés", "En 2 exemplaires : client et prestataire (modèle en annexe)"],
+            ["Site « Cleamy Corporate »", "Commandes pressing, cordonnerie et retouches (n° CP-…)"],
+            ["Grille tarifaire NOVA", "Seule référence de prix communiquée au client"]
+          ],
+          "head": true
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "titre": "1. PRESSING & BLANCHISSERIE",
+      "blocs": [
+        { "t": "p", "x": "1. PRESSING & BLANCHISSERIE" },
+        { "t": "p", "x": "Présentation du service et consignes particulières" },
+        { "t": "image", "path": "images/p7-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "7" },
+        { "t": "image", "path": "images/p7-2.jpg" },
+        { "t": "p", "x": "PRESTATAIRE" },
+        { "t": "p", "x": "Cleamy" },
+        { "t": "p", "x": "COMMANDE" },
+        { "t": "p", "x": "Cleamy Corporate" },
+        { "t": "p", "x": "DÉLAI" },
+        { "t": "p", "x": "72 h minimum" },
+        { "t": "p", "x": "OBJECTIF DU SERVICE" },
+        {
+          "t": "p",
+          "x": "Assurer la prise en charge des vêtements et textiles confiés par les clients, du dépôt jusqu’à la restitution, en garantissant :"
+        },
+        {
+          "t": "p",
+          "x": "un nettoyage adapté à la nature des articles : nettoyage à sec ou blanchisserie ;"
+        },
+        { "t": "p", "x": "un repassage soigné ;" },
+        { "t": "p", "x": "la réalisation des retouches demandées ;" },
+        { "t": "p", "x": "le respect des délais annoncés ;" },
+        { "t": "p", "x": "une qualité conforme aux attentes du client." },
+        { "t": "p", "x": "DÉFINITIONS" },
+        { "t": "p", "x": "NETTOYAGE À SEC" },
+        {
+          "t": "p",
+          "x": "Procédé utilisant un solvant adapté aux textiles délicats qui ne peuvent pas être lavés à l’eau."
+        },
+        { "t": "p", "x": "LINGE AU KILO" },
+        {
+          "t": "p",
+          "x": "Lavé à 30 °C, séché au sèche-linge puis plié. Pas de repassage : ne pas le promettre au client. Tarif au kilo."
+        },
+        { "t": "p", "x": "CONSIGNES PARTICULIÈRES" },
+        {
+          "t": "table",
+          "rows": [
+            ["Point", "Consigne"],
+            [
+              "Limites du nettoyage à sec",
+              "Le nettoyage à sec ne permet pas d’éliminer les odeurs. Dans la majorité des cas, les pressings n’utilisent pas de produits parfumés afin de limiter les risques d’allergies. En informer le client au dépôt."
+            ],
+            [
+              "Demande de désodorisation",
+              "Si le client souhaite une désodorisation, l’indiquer clairement au prestataire au moment de l’envoi de l’article (rubrique « Remarques » du bon)."
+            ],
+            [
+              "Articles délicats",
+              "Appliquer le tarif « délicat » de la grille dès que la matière l’exige (soie, laine fine, cachemire, ornements…)."
+            ],
+            [
+              "Retouches",
+              "Grille retouches ; décrire précisément la retouche (champ « Précisions ») et cocher « passer aussi au pressing » si l’article doit être nettoyé."
+            ]
+          ],
+          "head": true
+        },
+        {
+          "t": "p",
+          "x": "Un article n’est jamais envoyé au prestataire sans validation écrite du tarif par le client."
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "titre": "PRESSING – DÉPÔT CLIENT",
+      "blocs": [
+        { "t": "p", "x": "PRESSING – DÉPÔT CLIENT" },
+        { "t": "p", "x": "Procédure opérationnelle de prise en charge" },
+        { "t": "image", "path": "images/p8-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "8" },
+        { "t": "p", "x": "1" },
+        { "t": "p", "x": "Accueillir et identifier les articles" },
+        {
+          "t": "p",
+          "x": "Accueillir le client, recenser les articles en précisant nature, matière et couleur. Prendre nom, prénom et adresse e-mail."
+        },
+        { "t": "p", "x": "2" },
+        { "t": "p", "x": "Contrôler l’état des articles" },
+        {
+          "t": "p",
+          "x": "Inspecter chaque article en présence du client (taches, déchirures, boutons manquants, usure) et noter toute anomalie pour limiter les risques de litige."
+        },
+        { "t": "p", "x": "3" },
+        { "t": "p", "x": "Confirmer le tarif" },
+        {
+          "t": "p",
+          "x": "Envoyer au client un e-mail de confirmation indiquant le prix TTC de la prestation, selon la grille NOVA."
+        },
+        { "t": "p", "x": "4" },
+        { "t": "p", "x": "Enregistrer la commande" },
+        {
+          "t": "p",
+          "x": "Renseigner la commande et les coordonnées du client dans le fichier Excel « Gestion conciergerie »."
+        },
+        { "t": "p", "x": "5" },
+        { "t": "p", "x": "Obtenir la validation client" },
+        {
+          "t": "p",
+          "x": "S’assurer que le client confirme la commande par écrit avant toute poursuite du processus."
+        },
+        { "t": "p", "x": "6" },
+        { "t": "p", "x": "Établir le ticket de dépôt" },
+        {
+          "t": "p",
+          "x": "Ticket numéroté remis au client : service demandé, nombre d’articles, anomalies. Le n° de commande Cleamy CP-… y sera reporté."
+        },
+        { "t": "p", "x": "7" },
+        { "t": "p", "x": "Préciser les remarques" },
+        {
+          "t": "p",
+          "x": "Taches spécifiques, désodorisation, retouches : à reporter dans le champ « Précisions » de la commande Cleamy."
+        },
+        { "t": "p", "x": "8" },
+        { "t": "p", "x": "Saisir la commande sur Cleamy Corporate" },
+        {
+          "t": "p",
+          "x": "Suivre la procédure de la page suivante ; noter le n° CP-… sur le ticket et dans « Gestion conciergerie »."
+        },
+        { "t": "p", "x": "9" },
+        { "t": "p", "x": "Préparer le sac" },
+        {
+          "t": "p",
+          "x": "Plier les articles, les placer dans le sac et y glisser la carte Cleamy portant le n° CP-…."
+        },
+        {
+          "t": "p",
+          "x": "Astuce : photographier l’anomalie constatée au dépôt et joindre la photo au dossier client — c’est la meilleure protection en cas de litige."
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "titre": "CLEAMY CORPORATE – SAISIR UNE COMMANDE",
+      "blocs": [
+        { "t": "p", "x": "CLEAMY CORPORATE – SAISIR UNE COMMANDE" },
+        { "t": "p", "x": "Pressing, blanchisserie, cordonnerie et retouches" },
+        { "t": "image", "path": "images/p9-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "9" },
+        { "t": "p", "x": "1" },
+        { "t": "p", "x": "Ajouter une collecte" },
+        {
+          "t": "p",
+          "x": "Onglet « Commandes » → bouton « Ajouter une collecte » en haut de la page."
+        },
+        { "t": "p", "x": "2" },
+        { "t": "p", "x": "Sélectionner le résident" },
+        {
+          "t": "p",
+          "x": "Choisir le client parmi les résidents existants, ou le créer s’il n’existe pas encore."
+        },
+        { "t": "p", "x": "3" },
+        { "t": "p", "x": "Choisir la prestation" },
+        { "t": "p", "x": "Standard, StandardPlus ou Premium (voir gamme NOVA ci-dessous)." },
+        { "t": "p", "x": "4" },
+        { "t": "p", "x": "Ajouter les articles" },
+        {
+          "t": "p",
+          "x": "Sélectionner le ou les types de nettoyage, ajouter les articles, puis « Confirmer la commande »."
+        },
+        { "t": "p", "x": "5" },
+        { "t": "p", "x": "Vérifier le récapitulatif" },
+        {
+          "t": "p",
+          "x": "Contrôler la saisie. Cordonnerie et retouches : champ « Précisions » OBLIGATOIRE. Retouche + pressing : cocher la case."
+        },
+        { "t": "p", "x": "6" },
+        { "t": "p", "x": "Valider et identifier le sac" },
+        {
+          "t": "p",
+          "x": "Cliquer sur « Valider » : noter le n° CP-… sur une carte Cleamy placée dans le sac, sur le ticket client et dans « Gestion conciergerie »."
+        },
+        { "t": "p", "x": "RÈGLES DE FONCTIONNEMENT" },
+        {
+          "t": "table",
+          "rows": [
+            ["Point", "Règle"],
+            [
+              "Gamme à sélectionner",
+              "À définir par NOVA : la grille tarifaire NOVA est calculée sur la grille B2B Cleamy."
+            ],
+            [
+              "Délai annoncé au client",
+              "72 h minimum entre la collecte et la livraison. Ne jamais promettre moins sans confirmation de Cleamy."
+            ],
+            [
+              "Passages",
+              "Créneaux de 2 h entre 10h30 et 17h30 ; passage hebdomadaire automatisable le lundi et le jeudi."
+            ],
+            ["Contact Cleamy", "corporate@cleamy.com – 01 84 80 50 08"]
+          ],
+          "head": true
+        },
+        {
+          "t": "p",
+          "x": "Sans n° CP-… dans le sac, Cleamy ne peut pas rattacher les articles à la commande : vérifier la carte avant de fermer le sac."
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "titre": "PRESSING – RETOUR & RESTITUTION",
+      "blocs": [
+        { "t": "p", "x": "PRESSING – RETOUR & RESTITUTION" },
+        { "t": "p", "x": "Du retour prestataire à la facturation" },
+        { "t": "image", "path": "images/p10-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "10" },
+        { "t": "p", "x": "1" },
+        { "t": "p", "x": "Contrôler la qualité de la prestation" },
+        {
+          "t": "p",
+          "x": "Contrôle visuel des articles réceptionnés : état et conformité de la prestation réalisée par le pressing."
+        },
+        { "t": "p", "x": "2" },
+        { "t": "p", "x": "Informer le client" },
+        {
+          "t": "p",
+          "x": "Envoyer un e-mail au client l’informant que sa commande est disponible à la conciergerie."
+        },
+        { "t": "p", "x": "3" },
+        { "t": "p", "x": "Mettre à jour le suivi" },
+        {
+          "t": "p",
+          "x": "Indiquer dans « Gestion conciergerie » que la commande a été réceptionnée."
+        },
+        { "t": "p", "x": "4" },
+        { "t": "p", "x": "Restituer la commande" },
+        {
+          "t": "p",
+          "x": "Remettre les articles au client et vérifier avec lui que la commande est complète et conforme."
+        },
+        { "t": "p", "x": "5" },
+        { "t": "p", "x": "Transmettre les informations de facturation" },
+        {
+          "t": "p",
+          "x": "Envoyer à Aurélie GODIN : nom et prénom du client, adresse e-mail et montant à facturer."
+        },
+        { "t": "p", "x": "SI LE CONTRÔLE RÉVÈLE UN PROBLÈME" },
+        {
+          "t": "table",
+          "rows": [
+            ["Situation", "Conduite à tenir"],
+            [
+              "Tache persistante / défaut",
+              "Ne pas restituer sans explication : informer le client, contacter Cleamy pour une reprise ou ouvrir un litige."
+            ],
+            [
+              "Article manquant",
+              "Vérifier le ticket et la feuille de dépôt, signaler immédiatement à Cleamy et à Aurélie GODIN."
+            ],
+            [
+              "Article endommagé",
+              "Photographier, informer le client, ouvrir un litige auprès du prestataire (voir fiche réflexe « Litige »)."
+            ]
+          ],
+          "head": true
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "titre": "2. CORDONNERIE",
+      "blocs": [
+        { "t": "p", "x": "2. CORDONNERIE" },
+        { "t": "p", "x": "Présentation et prise en charge" },
+        { "t": "image", "path": "images/p11-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "11" },
+        { "t": "image", "path": "images/p11-2.jpg" },
+        { "t": "p", "x": "PRESTATAIRE" },
+        { "t": "p", "x": "Cleamy" },
+        { "t": "p", "x": "COMMANDE" },
+        { "t": "p", "x": "Cleamy Corporate" },
+        { "t": "p", "x": "PAIEMENT" },
+        { "t": "p", "x": "Carte bancaire" },
+        { "t": "p", "x": "OBJECTIF DU SERVICE" },
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Mission",
+              "Assurer la réparation, l’entretien et la personnalisation des articles en cuir confiés, avec un travail réalisé dans les règles de l’art."
+            ],
+            ["Articles concernés", "Chaussures, sacs, ceintures et autres accessoires en cuir."],
+            [
+              "Prestations possibles",
+              "Réparation, entretien, rénovation, personnalisation ou ajustement."
+            ],
+            [
+              "Exigence qualité",
+              "Vérifier la faisabilité avant validation et informer le client de toute réserve ou limite technique."
+            ]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "PROCÉDURE OPÉRATIONNELLE – PRISE EN CHARGE" },
+        { "t": "p", "x": "1" },
+        { "t": "p", "x": "Accueillir le client" },
+        { "t": "p", "x": "Recevoir le client avec courtoisie et identifier sa demande." },
+        { "t": "p", "x": "2" },
+        { "t": "p", "x": "Qualifier la prestation" },
+        { "t": "p", "x": "Réparation, entretien, rénovation, ajustement ou personnalisation." },
+        { "t": "p", "x": "3" },
+        { "t": "p", "x": "Collecter les coordonnées" },
+        { "t": "p", "x": "Nom du client et adresse e-mail pour le suivi de la commande." },
+        { "t": "p", "x": "4" },
+        { "t": "p", "x": "Consulter la grille tarifaire" },
+        { "t": "p", "x": "Établir une estimation adaptée à partir des tarifs en vigueur." },
+        { "t": "p", "x": "5" },
+        { "t": "p", "x": "Transmettre le devis" },
+        { "t": "p", "x": "E-mail récapitulant la prestation demandée et le montant." },
+        { "t": "p", "x": "6" },
+        { "t": "p", "x": "Enregistrer la commande" },
+        {
+          "t": "p",
+          "x": "Demande, coordonnées et informations utiles dans « Gestion conciergerie »."
+        },
+        { "t": "p", "x": "7" },
+        { "t": "p", "x": "Valider et saisir sur Cleamy" },
+        {
+          "t": "p",
+          "x": "Devis validé par écrit → commande Cleamy Corporate, champ « Précisions » obligatoire."
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "titre": "CORDONNERIE – RETOUR & RESTITUTION",
+      "blocs": [
+        { "t": "p", "x": "CORDONNERIE – RETOUR & RESTITUTION" },
+        { "t": "p", "x": "Du retour prestataire à l’encaissement" },
+        { "t": "image", "path": "images/p12-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "12" },
+        { "t": "p", "x": "1" },
+        { "t": "p", "x": "Contrôler la qualité de la prestation" },
+        {
+          "t": "p",
+          "x": "Contrôle visuel des articles réceptionnés : état et conformité du travail réalisé par le prestataire."
+        },
+        { "t": "p", "x": "2" },
+        { "t": "p", "x": "Informer le client" },
+        {
+          "t": "p",
+          "x": "Envoyer un e-mail l’informant que sa commande est disponible à la conciergerie."
+        },
+        { "t": "p", "x": "3" },
+        { "t": "p", "x": "Mettre à jour le suivi" },
+        {
+          "t": "p",
+          "x": "Indiquer dans « Gestion conciergerie » que la commande a été réceptionnée."
+        },
+        { "t": "p", "x": "4" },
+        { "t": "p", "x": "Restituer la commande" },
+        {
+          "t": "p",
+          "x": "Remettre les articles et vérifier avec le client que la commande est complète et conforme."
+        },
+        { "t": "p", "x": "5" },
+        { "t": "p", "x": "Transmettre les informations de facturation" },
+        {
+          "t": "p",
+          "x": "Envoyer à Aurélie GODIN : nom et prénom du client, adresse e-mail et montant à facturer."
+        },
+        { "t": "p", "x": "6" },
+        { "t": "p", "x": "Encaisser le paiement" },
+        { "t": "p", "x": "Inviter le client à régler la prestation par carte bancaire." },
+        { "t": "p", "x": "CONSIGNES PARTICULIÈRES" },
+        {
+          "t": "p",
+          "x": "Les tarifs « à partir de » sont indicatifs : le montant définitif doit figurer dans le devis validé par écrit."
+        },
+        {
+          "t": "p",
+          "x": "En cas de doute sur la faisabilité (cuir fragile, pièce ancienne, matière non identifiée), ne rien promettre : faire confirmer par le prestataire avant d’envoyer le devis."
+        },
+        {
+          "t": "p",
+          "x": "Signaler au client toute usure préexistante (semelle percée, talon décollé…) et la noter sur le ticket."
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "titre": "3. LAVAGE AUTO-MOTO",
+      "blocs": [
+        { "t": "p", "x": "3. LAVAGE AUTO-MOTO" },
+        { "t": "p", "x": "Prestation réalisée sur le parking du site" },
+        { "t": "image", "path": "images/p13-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "13" },
+        { "t": "image", "path": "images/p13-2.jpg" },
+        { "t": "p", "x": "PRESTATAIRE" },
+        { "t": "p", "x": "Clean Ta Caisse" },
+        { "t": "p", "x": "PAIEMENT" },
+        { "t": "p", "x": "Avant la prestation" },
+        { "t": "p", "x": "TARIFS" },
+        { "t": "p", "x": "Grille partielle" },
+        { "t": "p", "x": "OBJECTIF DU SERVICE" },
+        {
+          "t": "p",
+          "x": "Offrir un service de lavage extérieur et intérieur et de finition esthétique des véhicules (voitures et deux-roues) des occupants de l’immeuble, directement sur le site."
+        },
+        { "t": "p", "x": "PROCÉDURE OPÉRATIONNELLE" },
+        { "t": "p", "x": "TRAME PROPOSÉE – À VALIDER" },
+        { "t": "p", "x": "1" },
+        { "t": "p", "x": "Accueillir le client" },
+        { "t": "p", "x": "Recevoir le client et présenter les formules et options à la carte." },
+        { "t": "p", "x": "2" },
+        { "t": "p", "x": "Qualifier la prestation" },
+        {
+          "t": "p",
+          "x": "Intérieur, intérieur premium, extérieur, formule complète ou deux-roues ; noter les options."
+        },
+        { "t": "p", "x": "3" },
+        { "t": "p", "x": "Identifier le véhicule" },
+        {
+          "t": "p",
+          "x": "Marque, modèle, catégorie tarifaire (citadine → van), immatriculation, emplacement."
+        },
+        { "t": "p", "x": "4" },
+        { "t": "p", "x": "Sécurité enfant" },
+        {
+          "t": "p",
+          "x": "Demander au client de retirer le réhausseur avant la prestation (voir encadré)."
+        },
+        { "t": "p", "x": "5" },
+        { "t": "p", "x": "Confirmer le tarif par e-mail" },
+        {
+          "t": "p",
+          "x": "Formule + options, prix TTC de la grille ; attendre la validation écrite."
+        },
+        { "t": "p", "x": "6" },
+        { "t": "p", "x": "Encaisser AVANT de commander" },
+        {
+          "t": "p",
+          "x": "Clean Ta Caisse exige le paiement avant la prestation : lien de paiement via Aurélie GODIN, commande seulement une fois le client réglé."
+        },
+        { "t": "p", "x": "7" },
+        { "t": "p", "x": "Commander à Clean Ta Caisse" },
+        {
+          "t": "p",
+          "x": "Ligne « Gestion conciergerie », ticket numéroté, demande par e-mail à contact@clean-ta-caisse.fr."
+        },
+        { "t": "p", "x": "8" },
+        { "t": "p", "x": "Contrôler et restituer" },
+        { "t": "p", "x": "Vérifier le résultat avec le client et mettre à jour le suivi." },
+        { "t": "p", "x": "SÉCURITÉ ET ASSURANCE — RÉHAUSSEUR ENFANT" },
+        {
+          "t": "p",
+          "x": "Toujours demander si un réhausseur auto pour enfant est présent : le client doit l’enlever avant la prestation et le remettre lui-même après, pour des raisons de sécurité et d’assurance."
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "titre": "4. MINI-BOUTIQUE",
+      "blocs": [
+        { "t": "p", "x": "4. MINI-BOUTIQUE" },
+        { "t": "p", "x": "Vente d’articles de dépannage" },
+        { "t": "image", "path": "images/p14-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "14" },
+        { "t": "image", "path": "images/p14-2.jpg" },
+        { "t": "p", "x": "APPROVISIONNEMENT" },
+        { "t": "p", "x": "Stock NOVA en réserve" },
+        { "t": "p", "x": "PAIEMENT" },
+        { "t": "p", "x": "Lien de paiement CB" },
+        { "t": "p", "x": "SUIVI" },
+        { "t": "p", "x": "Gestion conciergerie" },
+        { "t": "p", "x": "OBJECTIF DU SERVICE" },
+        {
+          "t": "p",
+          "x": "Assurer la vente d’articles de dépannage : déodorants femme et homme, kit dentifrice, serviettes, kit de couture, set de douche."
+        },
+        { "t": "p", "x": "PROCÉDURE OPÉRATIONNELLE" },
+        { "t": "p", "x": "1" },
+        { "t": "p", "x": "Accueillir et conseiller" },
+        { "t": "p", "x": "Accueillir le client et le conseiller selon son besoin." },
+        { "t": "p", "x": "2" },
+        { "t": "p", "x": "Vérifier la disponibilité" },
+        { "t": "p", "x": "Contrôler la présence de l’article en réserve et son prix." },
+        { "t": "p", "x": "3" },
+        { "t": "p", "x": "Enregistrer la vente" },
+        { "t": "p", "x": "Saisir la commande dans « Gestion conciergerie »." },
+        { "t": "p", "x": "4" },
+        { "t": "p", "x": "Identifier le client" },
+        { "t": "p", "x": "Nom, prénom et adresse e-mail." },
+        { "t": "p", "x": "5" },
+        { "t": "p", "x": "Déclencher le paiement" },
+        { "t": "p", "x": "Demander à Aurélie GODIN l’envoi du lien de paiement CB au client." },
+        { "t": "p", "x": "TARIFS BOUTIQUE" },
+        {
+          "t": "table",
+          "rows": [
+            ["Produit", "Prix de vente TTC"],
+            ["Narta Femme – Déodorant bille Protection 50 ml", "6,00 €"],
+            ["Narta Femme – Déodorant bille Invisible 50 ml", "6,50 €"],
+            ["AXE Homme – Déodorant Black Vanilla (lot 2 × 150 ml)", "9,50 €"],
+            ["ELMEX Sensitive – Kit dentifrice voyage", "5,50 €"],
+            ["Hammetex – Serviette 50 × 100 cm (à l’unité)", "7,00 €"],
+            ["Mini kit de couture de voyage (à l’unité)", "4,00 €"],
+            ["Accentra – Set douche / soins (Sweet Peony, Olive, Lavande)", "10,00 €"]
+          ],
+          "head": true
+        },
+        {
+          "t": "p",
+          "x": "Signaler immédiatement toute rupture de stock au responsable • Respecter les règles d’affichage des prix en vigueur."
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "titre": "5. ENTRETIEN VÉLO",
+      "blocs": [
+        { "t": "p", "x": "5. ENTRETIEN VÉLO" },
+        { "t": "p", "x": "Service en cours de construction" },
+        { "t": "image", "path": "images/p15-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "15" },
+        { "t": "image", "path": "images/p15-2.jpg" },
+        { "t": "p", "x": "PRESTATAIRE" },
+        { "t": "p", "x": "À définir" },
+        { "t": "p", "x": "TARIFS" },
+        { "t": "p", "x": "À définir" },
+        { "t": "p", "x": "SUIVI" },
+        { "t": "p", "x": "Gestion conciergerie" },
+        { "t": "p", "x": "OBJECTIF DU SERVICE" },
+        {
+          "t": "p",
+          "x": "Assurer l’entretien courant, la réparation et le réglage des vélos dans un délai maîtrisé."
+        },
+        { "t": "p", "x": "PROCÉDURE OPÉRATIONNELLE" },
+        { "t": "p", "x": "TRAME PROPOSÉE – À VALIDER" },
+        { "t": "p", "x": "1" },
+        { "t": "p", "x": "Accueillir et qualifier" },
+        {
+          "t": "p",
+          "x": "Identifier le besoin : révision, crevaison, freins, dérailleur, réglages…"
+        },
+        { "t": "p", "x": "2" },
+        { "t": "p", "x": "Identifier le vélo et le client" },
+        { "t": "p", "x": "Type (musculaire / électrique), marque, couleur ; nom, prénom, e-mail." },
+        { "t": "p", "x": "3" },
+        { "t": "p", "x": "État des lieux" },
+        {
+          "t": "p",
+          "x": "Noter en présence du client l’état général et les accessoires laissés (batterie, antivol, sacoches)."
+        },
+        { "t": "p", "x": "4" },
+        { "t": "p", "x": "Devis et validation écrite" },
+        { "t": "p", "x": "E-mail récapitulatif avec tarif ; attendre la confirmation écrite." },
+        { "t": "p", "x": "5" },
+        { "t": "p", "x": "Enregistrer et transmettre" },
+        {
+          "t": "p",
+          "x": "Ligne « Gestion conciergerie », ticket numéroté, transmission au prestataire."
+        },
+        { "t": "p", "x": "6" },
+        { "t": "p", "x": "Contrôler, restituer, facturer" },
+        {
+          "t": "p",
+          "x": "Essai visuel (freins, roues), remise au client, facturation via Aurélie GODIN."
+        },
+        { "t": "p", "x": "POINTS DE CONTRÔLE QUALITÉ & CONSIGNES" },
+        { "t": "p", "x": "À COMPLÉTER" },
+        {
+          "t": "p",
+          "x": "Prestataire et coordonnées • grille tarifaire • délais de réalisation • lieu de stockage des vélos en attente • règles spécifiques aux vélos électriques (batterie, recharge, assurance)."
+        }
+      ]
+    },
+    {
+      "numero": 16,
+      "titre": "6. BILLETTERIE",
+      "blocs": [
+        { "t": "p", "x": "6. BILLETTERIE" },
+        { "t": "p", "x": "Concerts, festivals, sport, théâtre" },
+        { "t": "image", "path": "images/p16-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "16" },
+        { "t": "image", "path": "images/p16-2.jpg" },
+        { "t": "p", "x": "PRESTATAIRE" },
+        { "t": "p", "x": "Conciergerie Volume 2" },
+        { "t": "p", "x": "COMMANDE" },
+        { "t": "p", "x": "Par e-mail" },
+        { "t": "p", "x": "PAIEMENT" },
+        { "t": "p", "x": "Lien de paiement CB" },
+        { "t": "p", "x": "OBJECTIF DU SERVICE" },
+        {
+          "t": "p",
+          "x": "Assurer la vente de billets pour différents événements, y compris lorsque les guichets habituels sont fermés : concerts, festivals, événements sportifs et représentations théâtrales."
+        },
+        { "t": "p", "x": "PROCÉDURE OPÉRATIONNELLE" },
+        { "t": "p", "x": "1" },
+        { "t": "p", "x": "Accueillir le client" },
+        { "t": "p", "x": "Recevoir le client et identifier sa demande." },
+        { "t": "p", "x": "2" },
+        { "t": "p", "x": "Recueillir les informations" },
+        {
+          "t": "p",
+          "x": "Événement, date, nombre de places et catégorie de places (optionnel) ; nom, prénom, e-mail."
+        },
+        { "t": "p", "x": "3" },
+        { "t": "p", "x": "Accuser réception" },
+        {
+          "t": "p",
+          "x": "Envoyer au client un accusé de réception de la commande et remplir « Gestion conciergerie »."
+        },
+        { "t": "p", "x": "4" },
+        { "t": "p", "x": "Transmettre à Volume 2" },
+        { "t": "p", "x": "Envoyer le mail de demande au prestataire Conciergerie Volume 2." },
+        { "t": "p", "x": "5" },
+        { "t": "p", "x": "Informer le client" },
+        {
+          "t": "p",
+          "x": "En fonction du retour de Volume 2 : disponibilité, catégorie et prix confirmés."
+        },
+        { "t": "p", "x": "6" },
+        { "t": "p", "x": "Déclencher le paiement" },
+        { "t": "p", "x": "Demander à Aurélie GODIN l’envoi du lien de paiement au client." },
+        {
+          "t": "p",
+          "x": "Ne jamais garantir une disponibilité ou un prix avant le retour écrit de Volume 2 : l’accusé de réception n’est pas une confirmation de réservation."
+        }
+      ]
+    },
+    {
+      "numero": 17,
+      "titre": "GRILLE TARIFAIRE – PRESSING (1/2)",
+      "blocs": [
+        { "t": "p", "x": "GRILLE TARIFAIRE – PRESSING (1/2)" },
+        { "t": "p", "x": "Vêtements – prix TTC NOVA" },
+        { "t": "image", "path": "images/p17-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "17" },
+        {
+          "t": "table",
+          "rows": [
+            ["Article", "Prix TTC"],
+            ["AU KILO", ""],
+            ["Linge au kilo (le kg)", "7,00 €"],
+            ["HAUTS", ""],
+            ["Chemise sur cintre", "5,00 €"],
+            ["Chemise pliée", "6,00 €"],
+            ["Chemise délicate", "8,00 €"],
+            ["Chemisier", "10,00 €"],
+            ["Chemisier délicat", "15,00 €"],
+            ["T-shirt", "6,00 €"],
+            ["Polo", "8,00 €"],
+            ["Gilet", "9,00 €"],
+            ["Gilet délicat", "12,00 €"],
+            ["Pull", "10,00 €"],
+            ["Pull délicat", "12,00 €"],
+            ["Blouse", "16,00 €"],
+            ["COSTUMES", ""],
+            ["Costume 2 pièces", "21,00 €"],
+            ["Costume 2 pièces délicat", "29,00 €"],
+            ["Costume 3 pièces", "28,00 €"],
+            ["Costume 3 pièces délicat", "31,00 €"],
+            ["MANTEAUX & VESTES", ""],
+            ["Veste", "11,00 €"],
+            ["Veste délicate", "13,00 €"],
+            ["Blouson", "18,00 €"],
+            ["Manteau", "23,00 €"],
+            ["Manteau délicat", "28,00 €"],
+            ["Doudoune", "24,00 €"],
+            ["Doudoune délicate", "29,00 €"],
+            ["Imperméable", "25,00 €"],
+            ["Article", "Prix TTC"],
+            ["BAS", ""],
+            ["Short", "8,00 €"],
+            ["Pantalon", "11,00 €"],
+            ["Pantalon délicat", "12,00 €"],
+            ["Jupe", "11,00 €"],
+            ["Jupe délicate", "13,00 €"],
+            ["Jupe longue", "16,00 €"],
+            ["Jupe longue délicate", "17,00 €"],
+            ["Combinaison / combishort", "28,00 €"],
+            ["ROBES", ""],
+            ["Robe", "16,00 €"],
+            ["Robe délicate", "19,00 €"],
+            ["Robe longue", "25,00 €"],
+            ["Robe de soirée", "34,00 €"],
+            ["Robe de mariée (à partir de)", "159,00 €"],
+            ["VÊTEMENTS TECHNIQUES", ""],
+            ["Pantalon de ski", "15,00 €"],
+            ["Blouson de ski", "27,00 €"],
+            ["Combinaison de ski", "31,00 €"],
+            ["VÊTEMENTS PROFESSIONNELS", ""],
+            ["Tablier", "10,00 €"],
+            ["Robe d’avocat", "31,00 €"],
+            ["ACCESSOIRES & LINGERIE", ""],
+            ["Sous-vêtement", "5,00 €"],
+            ["Bonnet", "6,00 €"],
+            ["Cravate / nœud papillon", "10,00 €"],
+            ["Écharpe / foulard", "10,00 €"],
+            ["Gants", "11,00 €"],
+            ["Peignoir", "18,00 €"],
+            ["Chapeau", "21,00 €"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "RÈGLE DE PRIX NOVA" },
+        {
+          "t": "p",
+          "x": "Prix de vente = coût prestataire + 10 %, arrondi au 0,10 € supérieur. Seuls ces prix sont communiqués au client ; toute demande hors grille est validée par Aurélie GODIN."
+        }
+      ]
+    },
+    {
+      "numero": 18,
+      "titre": "GRILLE TARIFAIRE – PRESSING (2/2)",
+      "blocs": [
+        { "t": "p", "x": "GRILLE TARIFAIRE – PRESSING (2/2)" },
+        { "t": "p", "x": "Linge de maison – prix TTC NOVA" },
+        { "t": "image", "path": "images/p18-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "18" },
+        {
+          "t": "table",
+          "rows": [
+            ["Article", "Prix TTC"],
+            ["LINGE DE LIT", ""],
+            ["Taie d’oreiller", "6,00 €"],
+            ["Taie d’oreiller délicate", "9,00 €"],
+            ["Taie de traversin", "9,00 €"],
+            ["Drap", "11,00 €"],
+            ["Drap délicat", "17,00 €"],
+            ["Alèse", "11,00 €"],
+            ["Housse de couette", "13,00 €"],
+            ["Housse de couette délicate", "16,00 €"],
+            ["Oreiller", "15,00 €"],
+            ["Oreiller naturel", "17,00 €"],
+            ["Traversin", "19,00 €"],
+            ["Traversin naturel", "23,00 €"],
+            ["Couverture", "19,00 €"],
+            ["Plaid", "21,00 €"],
+            ["Dessus de lit", "23,00 €"],
+            ["Couette", "27,00 €"],
+            ["Couette naturelle", "36,00 €"],
+            ["Surmatelas", "59,00 €"],
+            ["Article", "Prix TTC"],
+            ["LINGE DE TABLE & BAIN", ""],
+            ["Serviette de table", "5,00 €"],
+            ["Serviette de table délicate", "9,00 €"],
+            ["Nappe 2 m ou moins", "15,00 €"],
+            ["Nappe entre 2 et 5 m", "22,00 €"],
+            ["Nappe plus de 5 m", "28,00 €"],
+            ["Serviette (petite)", "6,00 €"],
+            ["Serviette (grande)", "9,00 €"],
+            ["Tapis de bain", "9,00 €"],
+            ["AMEUBLEMENT", ""],
+            ["Coussin (petit)", "9,00 €"],
+            ["Coussin (grand)", "12,00 €"],
+            ["Housse de coussin (petit)", "17,00 €"],
+            ["Housse de coussin (grand)", "21,00 €"],
+            ["Housse de canapé (petite)", "21,00 €"],
+            ["Housse de canapé (moyenne)", "22,00 €"],
+            ["Housse de canapé (grande)", "42,00 €"],
+            ["Tapis (le m²)", "19,00 €"],
+            ["Rideau (par pan)", "38,00 €"]
+          ],
+          "head": true
+        },
+        {
+          "t": "p",
+          "x": "Linge au kilo : lavé à 30 °C, séché et plié, sans repassage. Articles « délicats » : appliquer systématiquement le tarif délicat."
+        },
+        { "t": "p", "x": "RÈGLE DE PRIX NOVA" },
+        {
+          "t": "p",
+          "x": "Prix de vente = coût prestataire + 10 %, arrondi au 0,10 € supérieur. Seuls ces prix sont communiqués au client ; toute demande hors grille est validée par Aurélie GODIN."
+        }
+      ]
+    },
+    {
+      "numero": 19,
+      "titre": "GRILLE TARIFAIRE – CORDONNERIE & RETOUCHES",
+      "blocs": [
+        { "t": "p", "x": "GRILLE TARIFAIRE – CORDONNERIE & RETOUCHES" },
+        { "t": "p", "x": "Prix TTC NOVA – prestataire Cleamy" },
+        { "t": "image", "path": "images/p19-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "19" },
+        { "t": "p", "x": "CORDONNERIE" },
+        {
+          "t": "table",
+          "rows": [
+            ["Article", "Prix TTC"],
+            ["Cirage (à partir de)", "11,00 €"],
+            ["Fers ou plastiques", "8,00 €"],
+            ["Embout de talons F (à partir de)", "9,00 €"],
+            ["Embout talons aiguilles F (à partir de)", "11,00 €"],
+            ["Changement de talons F", "14,00 €"],
+            ["Patins striés (à partir de)", "17,00 €"],
+            ["Article", "Prix TTC"],
+            ["Patins (à partir de)", "19,00 €"],
+            ["Talons (à partir de)", "19,00 €"],
+            ["Fers encastrés vissés", "21,00 €"],
+            ["Talons cuir (à partir de)", "25,00 €"],
+            ["Demi-semelle gomme", "37,00 €"],
+            ["Demi-semelle cuir", "41,00 €"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "RETOUCHES" },
+        {
+          "t": "table",
+          "rows": [
+            ["Article", "Prix TTC"],
+            ["Pose de bouton (fourni)", "4,00 €"],
+            ["Pose de bouton non fourni (à partir de)", "5,00 €"],
+            ["Couture (max 10 cm)", "9,00 €"],
+            ["Fond de poche déchiré", "13,00 €"],
+            ["Poche – changement (à partir de)", "15,00 €"],
+            ["Ourlet défait (à partir de)", "16,00 €"],
+            ["Article", "Prix TTC"],
+            ["Fond de poche – changement (à partir de)", "17,00 €"],
+            ["Passant ceinture décousu", "19,00 €"],
+            ["Braguette (à partir de)", "19,00 €"],
+            ["Poche décousue", "20,00 €"],
+            ["Passant ceinture – changement", "28,00 €"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "À SAVOIR AVANT D’ANNONCER UN PRIX" },
+        {
+          "t": "p",
+          "x": "Les tarifs « à partir de » sont des minimums : le montant définitif figure dans le devis validé par écrit. Pour la cordonnerie et les retouches, la description précise de l’intervention est obligatoire (champ « Précisions » de Cleamy)."
+        },
+        { "t": "p", "x": "RÈGLE DE PRIX NOVA" },
+        {
+          "t": "p",
+          "x": "Prix de vente = coût prestataire + 10 %, arrondi au 0,10 € supérieur. Seuls ces prix sont communiqués au client ; toute demande hors grille est validée par Aurélie GODIN."
+        }
+      ]
+    },
+    {
+      "numero": 20,
+      "titre": "GRILLE TARIFAIRE – LAVAGE AUTO-MOTO",
+      "blocs": [
+        { "t": "p", "x": "GRILLE TARIFAIRE – LAVAGE AUTO-MOTO" },
+        { "t": "p", "x": "Prix TTC NOVA – prestataire Clean Ta Caisse" },
+        { "t": "image", "path": "images/p20-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "20" },
+        { "t": "p", "x": "FORMULES VOITURES" },
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Catégorie",
+              "Nettoyage / intérieur",
+              "Intérieur / premium",
+              "Nettoyage / extérieur",
+              "Formule complète / int. + ext."
+            ],
+            ["Citadine", "65,00 €", "87,00 €", "48,00 €", "108,00 €"],
+            ["Berline", "96,00 €", "96,00 €", "60,00 €", "120,00 €"],
+            ["SUV COMPACT /", "84,00€", "108,00€", "72,00 €", "132,00€"],
+            ["Grand SUV", "96,00€", "120,00€", "84,00€", "145,00€"],
+            ["Sportive", "108,00€", "132,00€", "96,00€", "157,00€"],
+            ["Van / utilitaire", "120,00€", "145,00€", "108,00€", "169,00€"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "DEUX-ROUES" },
+        {
+          "t": "table",
+          "rows": [
+            ["Véhicule", "Prix TTC"],
+            ["Scooter", "63,00 €"],
+            ["Moto", "88,00 €"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "OPTIONS À LA CARTE" },
+        {
+          "t": "table",
+          "rows": [
+            ["Option", "Prix TTC", "Option", "Prix TTC"],
+            ["Nettoyage plafonnier", "13,00 €", "Poils d’animaux", "25,00 €"],
+            ["Shampoing siège", "19,00€", "Suppression fientes d’oiseaux", "25,00 €"],
+            ["Véhicule très sale", "37,00 €", "Salissure organique", "49,00 €"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "RÈGLE DE PRIX NOVA – LAVAGE" },
+        {
+          "t": "p",
+          "x": "Coût Clean Ta Caisse (non soumis à TVA) + 10 %, puis TVA 20 %, arrondi au 0,10 € supérieur. Paiement du client obligatoire avant la commande."
+        }
+      ]
+    },
+    {
+      "numero": 21,
+      "titre": "ANNEXES",
+      "blocs": [
+        { "t": "p", "x": "ANNEXES" },
+        { "t": "p", "x": "Fiches réflexes, modèles et procédures internes NOVA" },
+        { "t": "image", "path": "images/p21-1.jpg" },
+        { "t": "p", "x": "21" }
+      ]
+    },
+    {
+      "numero": 22,
+      "titre": "FICHE RÉFLEXE – MÉMO DES 6 SERVICES",
+      "blocs": [
+        { "t": "p", "x": "FICHE RÉFLEXE – MÉMO DES 6 SERVICES" },
+        { "t": "p", "x": "L’essentiel de chaque métier en un coup d’œil" },
+        { "t": "image", "path": "images/p22-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "22" },
+        { "t": "image", "path": "images/p22-2.jpg" },
+        { "t": "p", "x": "Pressing & Blanchisserie" },
+        { "t": "p", "x": "Cleamy – Cleamy Corporate" },
+        { "t": "p", "x": "Contrôle des articles devant le client" },
+        { "t": "p", "x": "Tarif par mail → accord écrit" },
+        { "t": "p", "x": "N° CP-… sur ticket + carte dans le sac" },
+        { "t": "p", "x": "Délai annoncé : 72 h minimum" },
+        { "t": "image", "path": "images/p22-3.jpg" },
+        { "t": "p", "x": "Cordonnerie" },
+        { "t": "p", "x": "Cleamy – Cleamy Corporate" },
+        { "t": "p", "x": "Vérifier la faisabilité avant devis" },
+        { "t": "p", "x": "Champ « Précisions » obligatoire" },
+        { "t": "p", "x": "Collecte après validation écrite" },
+        { "t": "p", "x": "Paiement par carte bancaire" },
+        { "t": "image", "path": "images/p22-4.jpg" },
+        { "t": "p", "x": "Lavage auto-moto" },
+        { "t": "p", "x": "Clean Ta Caisse" },
+        { "t": "p", "x": "Formule + catégorie de véhicule" },
+        { "t": "p", "x": "Tarif validé par écrit" },
+        { "t": "p", "x": "Client payé AVANT la commande" },
+        { "t": "p", "x": "Réhausseur enfant retiré par le client" },
+        { "t": "image", "path": "images/p22-5.jpg" },
+        { "t": "p", "x": "Mini-boutique" },
+        { "t": "p", "x": "Stock NOVA" },
+        { "t": "p", "x": "Vérifier stock et prix" },
+        { "t": "p", "x": "Nom + e-mail du client" },
+        { "t": "p", "x": "Lien de paiement CB via Aurélie GODIN" },
+        { "t": "p", "x": "Rupture → prévenir le responsable" },
+        { "t": "image", "path": "images/p22-6.jpg" },
+        { "t": "p", "x": "Entretien vélo" },
+        { "t": "p", "x": "Prestataire à définir" },
+        { "t": "p", "x": "État des lieux + accessoires laissés" },
+        { "t": "p", "x": "Devis validé par écrit" },
+        { "t": "p", "x": "Électrique : batterie à noter" },
+        { "t": "p", "x": "Procédure en cours de validation" },
+        { "t": "image", "path": "images/p22-7.jpg" },
+        { "t": "p", "x": "Billetterie" },
+        { "t": "p", "x": "Conciergerie Volume 2" },
+        { "t": "p", "x": "Événement, date, catégorie" },
+        { "t": "p", "x": "Accusé de réception au client" },
+        { "t": "p", "x": "Aucune garantie avant retour Volume 2" },
+        { "t": "p", "x": "Lien de paiement via Aurélie GODIN" },
+        {
+          "t": "p",
+          "x": "Un doute sur un tarif, un délai ou une faisabilité ? On ne promet rien : on vérifie auprès du prestataire ou d’Aurélie GODIN, puis on revient vers le client."
+        }
+      ]
+    },
+    {
+      "numero": 23,
+      "titre": "FICHE RÉFLEXE – BIEN ACCUEILLIR",
+      "blocs": [
+        { "t": "p", "x": "FICHE RÉFLEXE – BIEN ACCUEILLIR" },
+        { "t": "p", "x": "Les fondamentaux de l’accueil de qualité chez NOVA" },
+        { "t": "image", "path": "images/p23-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "23" },
+        { "t": "p", "x": "CE QUE JE FAIS – LES BONS RÉFLEXES" },
+        {
+          "t": "table",
+          "rows": [
+            ["Bon réflexe", "Comment"],
+            [
+              "Sourire et regard accueillant",
+              "Accueillir chaque client avec le sourire dès son arrivée, maintenir un contact visuel bienveillant."
+            ],
+            [
+              "Se lever pour accueillir",
+              "Se lever ou se redresser pour saluer un client qui arrive au comptoir."
+            ],
+            [
+              "Phrase d’accueil",
+              "« Conciergerie By NOVA, bonjour ! [Prénom], en quoi puis-je vous aider ? »"
+            ],
+            [
+              "Écoute active",
+              "Laisser le client exprimer son besoin sans l’interrompre, reformuler pour confirmer."
+            ],
+            [
+              "Conseiller",
+              "Présenter la formule adaptée, annoncer les délais et le tarif de la grille, sans jamais improviser un prix."
+            ],
+            [
+              "Tenir informé",
+              "Prévenir le client à chaque étape clé : validation, disponibilité, retard éventuel du prestataire."
+            ],
+            [
+              "Aller vers les occupants",
+              "Ne pas rester statique derrière le comptoir : faire connaître les services de la conciergerie."
+            ],
+            [
+              "Poste rangé",
+              "Comptoir propre et ordonné ; articles clients rangés, étiquetés et hors de portée du public."
+            ]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "CE QUE JE NE FAIS PAS – LES ERREURS À ÉVITER" },
+        {
+          "t": "table",
+          "rows": [
+            ["À éviter", "Pourquoi"],
+            [
+              "Téléphone personnel visible",
+              "Le téléphone personnel reste rangé pendant les heures de travail."
+            ],
+            ["Manger au poste", "Ne jamais manger ni boire visiblement au comptoir."],
+            [
+              "Ignorer un client",
+              "Même au téléphone, signaler sa présence d’un geste ou d’un regard."
+            ],
+            [
+              "Annoncer un prix « de tête »",
+              "Seule la grille tarifaire NOVA fait foi ; hors grille, faire valider avant de répondre."
+            ],
+            [
+              "Prendre un article sans ticket",
+              "Sans ticket ni ligne dans « Gestion conciergerie », l’article n’est pas traçable."
+            ],
+            [
+              "Promettre un délai non confirmé",
+              "Les délais dépendent du prestataire : les confirmer avant de s’engager."
+            ]
+          ],
+          "head": true
+        }
+      ]
+    },
+    {
+      "numero": 24,
+      "titre": "FICHE RÉFLEXE – ACCUEIL EN ANGLAIS",
+      "blocs": [
+        { "t": "p", "x": "FICHE RÉFLEXE – ACCUEIL EN ANGLAIS" },
+        { "t": "p", "x": "Phrases essentielles pour un client anglophone" },
+        { "t": "image", "path": "images/p24-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "24" },
+        {
+          "t": "table",
+          "rows": [
+            ["Situation", "Phrase en anglais"],
+            [
+              "Accueil",
+              "« Good morning / Good afternoon, welcome to the concierge desk. How can I help you? »"
+            ],
+            ["Nom et e-mail", "« Could I have your name and email address, please? »"],
+            [
+              "Dépôt d’un article",
+              "« Would you like to drop off an item for dry cleaning / shoe repair? »"
+            ],
+            [
+              "Contrôle de l’article",
+              "« Let’s check the item together for any stains or damage. »"
+            ],
+            [
+              "Tarif et validation",
+              "« I will email you the price. Please confirm by email so we can proceed. »"
+            ],
+            [
+              "Délai",
+              "« Your order should be ready in [x] days. We will email you when it is ready. »"
+            ],
+            ["Remise du ticket", "« Here is your ticket. Please keep it to collect your order. »"],
+            ["Commande prête", "« Your order is ready. Could you check that everything is fine? »"],
+            ["Paiement", "« Payment is by card. You will receive a payment link by email. »"],
+            ["Lavage – formule", "« Would you like an interior, exterior or full cleaning? »"],
+            [
+              "Réhausseur enfant",
+              "« Could you please remove the child booster seat before the service? »"
+            ],
+            ["Billetterie", "« Which event, which date, and how many tickets would you like? »"],
+            ["Article indisponible", "« I’m sorry, this item is currently out of stock. »"],
+            ["Faire patienter", "« One moment please, I will check that for you. »"],
+            ["Au revoir", "« Thank you, have a great day! »"]
+          ],
+          "head": true
+        },
+        {
+          "t": "p",
+          "x": "En cas de difficulté : « One moment please, I will find someone who can help you. » — Il vaut toujours mieux faire patienter que donner une information erronée."
+        }
+      ]
+    },
+    {
+      "numero": 25,
+      "titre": "FICHE RÉFLEXE – RÉCLAMATION & LITIGE",
+      "blocs": [
+        { "t": "p", "x": "FICHE RÉFLEXE – RÉCLAMATION & LITIGE" },
+        { "t": "p", "x": "Article endommagé, perdu ou prestation non conforme" },
+        { "t": "image", "path": "images/p25-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "25" },
+        { "t": "p", "x": "AU DÉPÔT – JE ME PROTÈGE" },
+        {
+          "t": "p",
+          "x": "Inspecter chaque article en présence du client et noter toute anomalie sur le ticket (taches, déchirures, usure, boutons manquants)."
+        },
+        {
+          "t": "p",
+          "x": "Photographier les anomalies significatives et les joindre au dossier client."
+        },
+        {
+          "t": "p",
+          "x": "Informer le client des limites de la prestation (odeurs, taches anciennes, cuir fragile) avant validation."
+        },
+        { "t": "p", "x": "AU RETOUR – JE CONTRÔLE AVANT DE RESTITUER" },
+        {
+          "t": "table",
+          "rows": [
+            ["Situation", "Conduite à tenir"],
+            [
+              "Prestation non conforme",
+              "Ne pas restituer en l’état sans prévenir : informer le client, demander une reprise au prestataire."
+            ],
+            [
+              "Article endommagé",
+              "Photographier, informer le client, informer le prestataire pour ouvrir un litige, prévenir Aurélie GODIN."
+            ],
+            [
+              "Article manquant",
+              "Vérifier ticket et feuille de dépôt, alerter le prestataire et Aurélie GODIN le jour même."
+            ],
+            [
+              "Retard du prestataire",
+              "Prévenir le client avant l’échéance annoncée et lui proposer un nouveau délai confirmé."
+            ]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "FACE À UN CLIENT MÉCONTENT" },
+        { "t": "p", "x": "1" },
+        { "t": "p", "x": "Écouter sans interrompre" },
+        {
+          "t": "p",
+          "x": "Rester calme, laisser le client s’exprimer, reformuler : « Je comprends, je vais faire le nécessaire. »"
+        },
+        { "t": "p", "x": "2" },
+        { "t": "p", "x": "Ne pas s’engager seul·e" },
+        {
+          "t": "p",
+          "x": "Aucun remboursement, avoir ou geste commercial sans validation d’Aurélie GODIN."
+        },
+        { "t": "p", "x": "3" },
+        { "t": "p", "x": "Tracer et remonter" },
+        {
+          "t": "p",
+          "x": "Noter la réclamation dans « Gestion conciergerie » et en informer Aurélie GODIN le jour même."
+        },
+        {
+          "t": "p",
+          "x": "⚠ Tout litige fait l’objet d’un compte-rendu écrit à Aurélie GODIN – 06 62 31 67 82"
+        }
+      ]
+    },
+    {
+      "numero": 26,
+      "titre": "FICHE RÉFLEXE – URGENCES ET SITUATIONS DIFFICILES",
+      "blocs": [
+        { "t": "p", "x": "FICHE RÉFLEXE – URGENCES ET SITUATIONS DIFFICILES" },
+        { "t": "p", "x": "Site Seine Avenue – 2 rue Sarah Bernhardt – 92600 Asnières-sur-Seine" },
+        { "t": "image", "path": "images/p26-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "26" },
+        { "t": "p", "x": "URGENCES" },
+        {
+          "t": "table",
+          "rows": [
+            ["Service", "Numéro"],
+            ["SAMU – urgences médicales", "15"],
+            ["Pompiers", "18"],
+            ["Police – gendarmerie", "17"],
+            ["Numéro européen d’urgence", "112"],
+            ["Urgence par SMS (personnes sourdes ou malentendantes)", "114"],
+            ["Centre anti-poison de Paris", "01 40 05 48 48"]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "APPELS DIFFICILES ET AGRESSIVITÉ – AU TÉLÉPHONE" },
+        {
+          "t": "table",
+          "rows": [
+            ["Étape", "Action"],
+            [
+              "1 – Rester calme",
+              "Ne pas hausser la voix. Respirer. Adopter un ton posé et professionnel."
+            ],
+            [
+              "2 – Nommer la situation",
+              "« Je comprends votre frustration, je vais faire mon possible pour vous aider. »"
+            ],
+            [
+              "3 – Poser un cadre",
+              "« Je ne suis pas en mesure de continuer cet échange dans ces conditions. »"
+            ],
+            [
+              "4 – Raccrocher si nécessaire",
+              "Vous avez le droit de raccrocher face à une agression verbale. Prévenir Aurélie GODIN immédiatement."
+            ],
+            [
+              "5 – Transférer",
+              "Si la demande dépasse vos attributions : mettre en relation avec la personne compétente."
+            ]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "EN PRÉSENTIEL" },
+        {
+          "t": "table",
+          "rows": [
+            ["Règle", "Détail"],
+            [
+              "Garder le comptoir entre vous",
+              "Ne jamais quitter la protection du comptoir face à une personne agitée."
+            ],
+            [
+              "Ne pas argumenter",
+              "Acquiescer partiellement : « Je vous entends, laissez-moi vérifier. »"
+            ],
+            [
+              "Alerter discrètement",
+              "Appeler la sécurité ou le 17 discrètement, en prétextant « vérifier une information »."
+            ],
+            ["Ne pas rester seul·e", "Si la situation dégénère, demander de l’aide immédiatement."]
+          ],
+          "head": true
+        },
+        {
+          "t": "p",
+          "x": "⚠ Après tout incident : compte-rendu écrit le jour même à Aurélie GODIN – 06 62 31 67 82"
+        }
+      ]
+    },
+    {
+      "numero": 27,
+      "titre": "PROCÉDURE – ABSENCE ET RETARD",
+      "blocs": [
+        { "t": "p", "x": "PROCÉDURE – ABSENCE ET RETARD" },
+        { "t": "p", "x": "Règles NOVA Accueil et Services – à appliquer impérativement" },
+        { "t": "image", "path": "images/p27-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "27" },
+        { "t": "p", "x": "EN CAS DE RETARD" },
+        {
+          "t": "table",
+          "rows": [
+            ["Règle", "Détail"],
+            [
+              "Prévenir AVANT la prise de poste",
+              "Appeler Aurélie GODIN au plus tard 30 minutes avant l’heure de prise de poste. Un SMS ne suffit pas : vous devez appeler."
+            ],
+            ["Numéro à appeler", "Aurélie GODIN – 06 62 31 67 82"],
+            [
+              "Ce qu’il faut indiquer",
+              "1. Votre nom 2. Le site (Conciergerie Seine Avenue) 3. Votre heure de prise de poste 4. La durée estimée du retard 5. La cause"
+            ],
+            [
+              "En cas de non-réponse",
+              "Laisser un message vocal détaillé, envoyer un SMS, puis rappeler toutes les 10 minutes."
+            ]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "EN CAS D’ABSENCE" },
+        {
+          "t": "table",
+          "rows": [
+            ["Type d’absence", "Procédure"],
+            [
+              "Absence prévisible (congés, rendez-vous)",
+              "Informer Aurélie GODIN au minimum 48 heures à l’avance par téléphone, avec confirmation écrite."
+            ],
+            [
+              "Absence imprévue (maladie, urgence)",
+              "Appeler Aurélie GODIN dès que vous savez que vous ne pourrez pas assurer votre poste."
+            ],
+            [
+              "Arrêt maladie",
+              "Transmettre le volet 3 de l’arrêt de travail à NOVA dans les 48 heures."
+            ],
+            [
+              "Justificatif obligatoire",
+              "Sans justificatif dans les 48 heures, l’absence sera considérée comme injustifiée."
+            ]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "POURQUOI CETTE RÈGLE EST NON NÉGOCIABLE" },
+        {
+          "t": "p",
+          "x": "Des clients viennent récupérer des commandes et les prestataires passent à heure fixe : la conciergerie doit être tenue. Votre prévenance permet à NOVA d’organiser un remplacement à temps et de tenir ses engagements."
+        }
+      ]
+    },
+    {
+      "numero": 28,
+      "titre": "MODÈLE – TICKET / BON DE DÉPÔT",
+      "blocs": [
+        { "t": "p", "x": "MODÈLE – TICKET / BON DE DÉPÔT" },
+        { "t": "p", "x": "À établir en 2 exemplaires : client et prestataire" },
+        { "t": "image", "path": "images/p28-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "28" },
+        { "t": "p", "x": "CONCIERGERIE BY NOVA" },
+        { "t": "p", "x": "Seine Avenue • 06 58 01 95 84 • accueilseineavenue@gmail.com" },
+        { "t": "p", "x": "N° ______________" },
+        { "t": "p", "x": "DATE DE DÉPÔT" },
+        { "t": "p", "x": "RESTITUTION PRÉVUE" },
+        { "t": "p", "x": "SOCIÉTÉ / ÉTAGE" },
+        { "t": "p", "x": "NOM ET PRÉNOM DU CLIENT" },
+        { "t": "p", "x": "E-MAIL / TÉLÉPHONE" },
+        { "t": "p", "x": "SERVICE" },
+        { "t": "p", "x": "Pressing & Blanchisserie" },
+        { "t": "p", "x": "Cordonnerie" },
+        { "t": "p", "x": "Lavage auto-moto" },
+        { "t": "p", "x": "Mini-boutique" },
+        { "t": "p", "x": "Entretien vélo" },
+        { "t": "p", "x": "Billetterie" },
+        { "t": "p", "x": "ARTICLES" },
+        {
+          "t": "table",
+          "rows": [
+            [
+              "Qté",
+              "Article / véhicule",
+              "Matière – couleur",
+              "Anomalies constatées au dépôt",
+              "Prix TTC"
+            ]
+          ],
+          "head": true
+        },
+        { "t": "p", "x": "TOTAL TTC : ____________ €" },
+        {
+          "t": "p",
+          "x": "REMARQUES (taches spécifiques, désodorisation, options, accessoires laissés…)"
+        },
+        { "t": "p", "x": "Tarif envoyé par e-mail le ___/___/______" },
+        { "t": "p", "x": "Validation écrite du client reçue le ___/___/______" },
+        { "t": "p", "x": "Collecte demandée au prestataire le ___/___/______" },
+        { "t": "p", "x": "SIGNATURE CLIENT" },
+        { "t": "p", "x": "VISA CONCIERGERIE" }
+      ]
+    },
+    {
+      "numero": 29,
+      "titre": "CLAUSE DE CONFIDENTIALITÉ",
+      "blocs": [
+        { "t": "p", "x": "CLAUSE DE CONFIDENTIALITÉ" },
+        { "t": "p", "x": "NOVA Accueil et Services – engagement de discrétion" },
+        { "t": "image", "path": "images/p29-1.jpg" },
+        { "t": "p", "x": "Livret de procédures – Conciergerie By NOVA" },
+        { "t": "p", "x": "29" },
+        { "t": "p", "x": "NATURE DE L’ENGAGEMENT" },
+        {
+          "t": "p",
+          "x": "Le/la salarié·e s’engage à observer la discrétion la plus stricte sur toutes les informations se rapportant aux activités de la conciergerie, du site Seine Avenue et de toute société y étant occupante, auxquelles il/elle aura, directement ou indirectement, accès dans le cadre de ses fonctions ou en raison de sa présence dans l’effectif."
+        },
+        { "t": "p", "x": "PORTÉE DE L’ENGAGEMENT" },
+        {
+          "t": "p",
+          "x": "La discrétion concerne notamment : l’identité et les coordonnées des clients, le contenu de leurs commandes et des articles confiés, les montants facturés, les informations de paiement, le fichier « Gestion conciergerie », les accès aux sites prestataires, les procédures et les incidents. Aucune divulgation externe n’est possible, par quelque moyen et canal que ce soit, y compris sur les réseaux sociaux."
+        },
+        { "t": "p", "x": "ARTICLES ET DONNÉES CLIENTS" },
+        {
+          "t": "p",
+          "x": "Les articles confiés sont conservés hors de la vue du public. Les données clients ne sont utilisées que pour le traitement de la commande et ne sont ni copiées, ni photographiées (hors photos d’anomalies versées au dossier), ni transmises à un tiers autre que le prestataire concerné."
+        },
+        { "t": "p", "x": "DURÉE DE L’ENGAGEMENT" },
+        {
+          "t": "p",
+          "x": "La discrétion s’applique pendant toute la durée du contrat et postérieurement à sa rupture, quelles qu’en soient les causes et modalités."
+        },
+        {
+          "t": "table",
+          "rows": [
+            ["Salarié·e", "Représentante NOVA"],
+            [
+              "Nom & prénom : ______________________ / / Fonction : __________________________ / / Date : ______________________________ / / Signature :",
+              "Aurélie GODIN – Fondatrice & Présidente / NOVA Accueil et Services / / Date : ______________________________ / / Signature :"
+            ]
+          ],
+          "head": true
+        },
+        {
+          "t": "p",
+          "x": "NOVA Accueil et Services – SIRET 994 699 155 00010 – IDCC 2098 – 60 rue François 1er, 75008 Paris"
+        }
+      ]
+    }
+  ]
+}
