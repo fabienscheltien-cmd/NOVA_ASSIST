@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
 import { Route as AuthRouteImport } from './routes/auth'
+import { Route as ConnexionStoreRouteImport } from './routes/connexion-store'
 import { Route as SessionRouteImport } from './routes/session'
 import { Route as AuthenticatedIndexRouteImport } from './routes/_authenticated/index'
 import { Route as AuthenticatedAlertesRouteImport } from './routes/_authenticated/alertes'
@@ -27,6 +28,11 @@ const AuthenticatedRouteRoute = AuthenticatedRouteRouteImport.update({
 const AuthRoute = AuthRouteImport.update({
   id: '/auth',
   path: '/auth',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ConnexionStoreRoute = ConnexionStoreRouteImport.update({
+  id: '/connexion-store',
+  path: '/connexion-store',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SessionRoute = SessionRouteImport.update({
@@ -73,6 +79,7 @@ const AuthenticatedSitesRoute = AuthenticatedSitesRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof AuthenticatedIndexRoute
   '/auth': typeof AuthRoute
+  '/connexion-store': typeof ConnexionStoreRoute
   '/session': typeof SessionRoute
   '/alertes': typeof AuthenticatedAlertesRoute
   '/detail': typeof AuthenticatedDetailRoute
@@ -83,6 +90,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/auth': typeof AuthRoute
+  '/connexion-store': typeof ConnexionStoreRoute
   '/session': typeof SessionRoute
   '/alertes': typeof AuthenticatedAlertesRoute
   '/detail': typeof AuthenticatedDetailRoute
@@ -96,6 +104,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
   '/auth': typeof AuthRoute
+  '/connexion-store': typeof ConnexionStoreRoute
   '/session': typeof SessionRoute
   '/_authenticated/alertes': typeof AuthenticatedAlertesRoute
   '/_authenticated/detail': typeof AuthenticatedDetailRoute
@@ -110,6 +119,7 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/auth'
+    | '/connexion-store'
     | '/session'
     | '/alertes'
     | '/detail'
@@ -120,6 +130,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/auth'
+    | '/connexion-store'
     | '/session'
     | '/alertes'
     | '/detail'
@@ -132,6 +143,7 @@ export interface FileRouteTypes {
     | '__root__'
     | '/_authenticated'
     | '/auth'
+    | '/connexion-store'
     | '/session'
     | '/_authenticated/alertes'
     | '/_authenticated/detail'
@@ -145,6 +157,7 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
   AuthRoute: typeof AuthRoute
+  ConnexionStoreRoute: typeof ConnexionStoreRoute
   SessionRoute: typeof SessionRoute
 }
 
@@ -162,6 +175,13 @@ declare module '@tanstack/react-router' {
       path: '/auth'
       fullPath: '/auth'
       preLoaderRoute: typeof AuthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/connexion-store': {
+      id: '/connexion-store'
+      path: '/connexion-store'
+      fullPath: '/connexion-store'
+      preLoaderRoute: typeof ConnexionStoreRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/session': {
@@ -249,6 +269,7 @@ const AuthenticatedRouteRouteWithChildren =
 const rootRouteChildren: RootRouteChildren = {
   AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
   AuthRoute: AuthRoute,
+  ConnexionStoreRoute: ConnexionStoreRoute,
   SessionRoute: SessionRoute,
 }
 export const routeTree = rootRouteImport
