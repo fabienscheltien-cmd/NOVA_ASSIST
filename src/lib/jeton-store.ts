@@ -1,87 +1,85 @@
-import { z } from "zod";
-
-export const DUREE_JETON_STORE_MS = 60_000;
-
-const schemaJetonStore = z.object({
-  email: z.string().trim().email(),
-  site: z.string().uuid(),
-  nomSite: z.string().trim().min(1).max(120),
-  role: z.enum(["super_admin", "hotesse"]),
-  exp: z.number(),
-});
-
-export type JetonStore = z.infer<typeof schemaJetonStore>;
-
-function decoderBase64Url(valeur: string): Uint8Array<ArrayBuffer> {
-  const base64 = valeur.replace(/-/g, "+").replace(/_/g, "/");
-  const complet = base64.padEnd(Math.ceil(base64.length / 4) * 4, "=");
-  const binaire = atob(complet);
-  const octets = new Uint8Array(binaire.length);
-  for (let i = 0; i < binaire.length; i += 1) octets[i] = binaire.charCodeAt(i);
-  return octets;
+/**
+ * Jeton de connexion unique Nova Store → applications NOVA (même fichier dans les deux projets).
+ *
+ * Le Store signe, avec un secret partagé (variable serveur NOVA_STORE_SSO_SECRET, identique
+ * dans les deux projets), « qui » ouvre l'application et pour quel site. L'application vérifie
+ * la signature et la date d'expiration (60 s), puis ouvre elle-même la session de son compte.
+ * Aucun mot de passe ni aucune clé de base de données ne circule.
+ * Le format reste compatible : une application qui ignore un champ facultatif l'accepte.
+ */
+export type ContenuJeton = {
+  v: 1;
+  /** Identifiant du site dans l'application ouverte (ex. id du site Nova Pass). */
+  site: string;
+  /** Nom du site (facultatif, affichage). Champ ajouté sans changer la vérification. */
+  nomSite?: string;
+  role: "accueil" | "super_admin";
+  /** E-mail du compte Store (sert à retrouver le super admin dans l'application). */
+  email: string;
+  /** Expiration, en millisecondes depuis 1970. */
+  exp: number;
+  /** Valeur aléatoire : deux jetons ne sont jamais identiques. */
+  n: string;
+};
+export const DUREE_JETON_MS = 60_000;
+const enc = new TextEncoder();
+function b64url(octets: Uint8Array): string {
+  let s = "";
+  for (const o of octets) s += String.fromCharCode(o);
+  return btoa(s).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }
-
-function decoderSignature(signature: string): Uint8Array<ArrayBuffer> {
-  if (/^[0-9a-f]{64}$/i.test(signature)) {
-    const octets = new Uint8Array(32);
-    for (let i = 0; i < octets.length; i += 1) {
-      const valeur = signature.slice(i * 2, i * 2 + 2);
-      octets[i] = Number.parseInt(valeur, 16);
-    }
-    return octets;
-  }
-  return decoderBase64Url(signature);
+function deB64url(texte: string): Uint8Array {
+  const s = atob(texte.replace(/-/g, "+").replace(/_/g, "/") + "===".slice((texte.length + 3) % 4));
+  return Uint8Array.from(s, (c) => c.charCodeAt(0));
 }
-
-function erreurJeton(): Error {
-  return new Error("Le lien de connexion Nova Store est invalide ou expiré.");
+async function signer(secret: string, donnees: string): Promise<string> {
+  const cle = await crypto.subtle.importKey(
+    "raw",
+    enc.encode(secret),
+    { name: "HMAC", hash: "SHA-256" },
+    false,
+    ["sign"],
+  );
+  return b64url(new Uint8Array(await crypto.subtle.sign("HMAC", cle, enc.encode(donnees))));
 }
-
-/** Vérifie le corps et la signature HMAC-SHA256 d'un jeton Nova Store de 60 secondes. */
-export async function verifierJeton(secret: string, jeton: string): Promise<JetonStore> {
-  if (!secret) throw new Error("La connexion Nova Store n'est pas configurée.");
-
+/** Comparaison en temps constant (évite de deviner la signature octet par octet). */
+function egal(a: string, b: string): boolean {
+  if (a.length !== b.length) return false;
+  let d = 0;
+  for (let i = 0; i < a.length; i++) d |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return d === 0;
+}
+export async function creerJeton(
+  secret: string,
+  contenu: Omit<ContenuJeton, "v" | "exp" | "n">,
+  maintenant = Date.now(),
+): Promise<string> {
+  if (secret.length < 32) throw new Error("Secret de connexion unique trop court (32 caractères minimum).");
+  const alea = new Uint8Array(12);
+  crypto.getRandomValues(alea);
+  const corps: ContenuJeton = { v: 1, ...contenu, exp: maintenant + DUREE_JETON_MS, n: b64url(alea) };
+  const donnees = b64url(enc.encode(JSON.stringify(corps)));
+  return `${donnees}.${await signer(secret, donnees)}`;
+}
+/** Renvoie le contenu si le jeton est authentique et non expiré, sinon une erreur lisible. */
+export async function verifierJeton(
+  secret: string,
+  jeton: string,
+  maintenant = Date.now(),
+): Promise<ContenuJeton> {
+  if (secret.length < 32) throw new Error("Connexion unique non configurée.");
+  const [donnees, signature, reste] = jeton.split(".");
+  if (!donnees || !signature || reste !== undefined) throw new Error("Lien de connexion invalide.");
+  if (!egal(await signer(secret, donnees), signature)) throw new Error("Lien de connexion invalide.");
+  let c: ContenuJeton;
   try {
-    const [corps, signature, ...reste] = jeton.split(".");
-    if (!corps || !signature || reste.length > 0) throw erreurJeton();
-
-    const cle = await crypto.subtle.importKey(
-      "raw",
-      new TextEncoder().encode(secret),
-      { name: "HMAC", hash: "SHA-256" },
-      false,
-      ["verify"],
-    );
-    const signatureValide = await crypto.subtle.verify(
-      "HMAC",
-      cle,
-      decoderSignature(signature),
-      new TextEncoder().encode(corps),
-    );
-    if (!signatureValide) throw erreurJeton();
-
-    const donnees = schemaJetonStore.parse(
-      JSON.parse(new TextDecoder().decode(decoderBase64Url(corps))),
-    );
-    // Nova Store utilise des secondes Unix ; les millisecondes sont également acceptées.
-    const expiration = donnees.exp < 1_000_000_000_000 ? donnees.exp * 1000 : donnees.exp;
-    const maintenant = Date.now();
-    if (
-      !Number.isFinite(expiration) ||
-      expiration <= maintenant ||
-      expiration - maintenant > DUREE_JETON_STORE_MS
-    ) {
-      throw erreurJeton();
-    }
-
-    return { ...donnees, email: donnees.email.toLowerCase() };
-  } catch (erreur) {
-    if (
-      erreur instanceof Error &&
-      erreur.message === "La connexion Nova Store n'est pas configurée."
-    ) {
-      throw erreur;
-    }
-    throw erreurJeton();
+    c = JSON.parse(new TextDecoder().decode(deB64url(donnees)));
+  } catch {
+    throw new Error("Lien de connexion invalide.");
   }
+  if (c.v !== 1 || !c.site || (c.role !== "accueil" && c.role !== "super_admin") || !c.email)
+    throw new Error("Lien de connexion invalide.");
+  if (typeof c.exp !== "number" || c.exp < maintenant || c.exp > maintenant + 2 * DUREE_JETON_MS)
+    throw new Error("Ce lien de connexion a expiré. Rouvrez l'application depuis le Nova Store.");
+  return c;
 }

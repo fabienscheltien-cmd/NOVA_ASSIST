@@ -11,12 +11,14 @@ export const preparerConnexionStore = createServerFn({ method: "POST" })
   .handler(async ({ data }) => {
     const secret = process.env["NOVA_STORE_SSO_SECRET"];
     if (!secret) throw new Error("La connexion Nova Store n'est pas configurée.");
-    const jeton = await verifierJeton(secret, data.jeton);
+    const contenu = await verifierJeton(secret, data.jeton);
+    const jeton = { ...contenu, email: contenu.email.trim().toLowerCase() };
+    if (!/^[0-9a-f-]{36}$/i.test(jeton.site)) throw new Error("Site inconnu.");
     const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
 
     const { error: erreurSite } = await supabaseAdmin
       .from("sites")
-      .upsert({ id: jeton.site, nom: jeton.nomSite }, { onConflict: "id", ignoreDuplicates: true });
+      .upsert({ id: jeton.site, nom: jeton.nomSite?.trim() || "Site Nova Store" }, { onConflict: "id", ignoreDuplicates: true });
     if (erreurSite) throw new Error("Préparation du site impossible.");
 
     let utilisateur: { id: string; email?: string } | null = null;
