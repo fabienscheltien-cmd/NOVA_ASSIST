@@ -4,11 +4,10 @@ import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useState, type FormEvent } from "react";
 import {
   creerCompteAccueil,
-  creerSite,
   listerComptes,
   retirerCompteAccueil,
 } from "@/lib/admin.functions";
-import { choisirSite, useEspace } from "@/lib/espace";
+import { useEspace } from "@/lib/espace";
 
 export const Route = createFileRoute("/_authenticated/sites")({
   component: PageSites,
@@ -17,7 +16,6 @@ export const Route = createFileRoute("/_authenticated/sites")({
 function PageSites() {
   const { siteId, siteNom, estSuperAdmin, notifier } = useEspace();
   const queryClient = useQueryClient();
-  const nouveauSite = useServerFn(creerSite);
   const chargerComptes = useServerFn(listerComptes);
   const nouveauCompte = useServerFn(creerCompteAccueil);
   const retirer = useServerFn(retirerCompteAccueil);
@@ -27,24 +25,11 @@ function PageSites() {
     enabled: !!siteId && estSuperAdmin,
   });
 
-  const [nom, setNom] = useState("");
-  const [ville, setVille] = useState("");
   const [email, setEmail] = useState("");
   const [motDePasse, setMotDePasse] = useState("");
   const [erreur, setErreur] = useState<string | null>(null);
 
   if (!estSuperAdmin) return <div className="glass empty">Réservé au Super Admin.</div>;
-
-  async function ajouterSite(e: FormEvent) {
-    e.preventDefault();
-    if (!nom.trim()) return;
-    const s = await nouveauSite({ data: { nom: nom.trim(), ville: ville.trim() || null } });
-    await queryClient.invalidateQueries({ queryKey: ["sites"] });
-    choisirSite(s.id);
-    setNom("");
-    setVille("");
-    notifier(`Site « ${nom.trim()} » créé.`);
-  }
 
   async function ajouterCompte(e: FormEvent) {
     e.preventDefault();
@@ -66,36 +51,11 @@ function PageSites() {
   return (
     <>
       <section className="glass panel">
-        <h2>Créer un site</h2>
-        <p className="sub">Chaque site a ses propres livrets, compléments et comptes d'accueil.</p>
-        <form className="grid2" onSubmit={ajouterSite}>
-          <label className="who">
-            Nom du site
-            <input
-              className="field"
-              required
-              maxLength={120}
-              placeholder="Ex. : Seine Avenue"
-              value={nom}
-              onChange={(e) => setNom(e.target.value)}
-            />
-          </label>
-          <label className="who">
-            Ville (facultatif)
-            <input
-              className="field"
-              maxLength={120}
-              placeholder="Ex. : Asnières-sur-Seine"
-              value={ville}
-              onChange={(e) => setVille(e.target.value)}
-            />
-          </label>
-          <div>
-            <button className="btn gold" type="submit">
-              Créer le site
-            </button>
-          </div>
-        </form>
+        <h2>Sites</h2>
+        <p className="sub">
+          Les sites sont créés dans Nova Store et déversés automatiquement ici. Choisissez un site
+          dans la liste déroulante pour y attacher son livret d'accueil.
+        </p>
       </section>
 
       {siteId && (

@@ -20,6 +20,7 @@ import { Route as AuthenticatedFichesRouteImport } from './routes/_authenticated
 import { Route as AuthenticatedLivretsRouteImport } from './routes/_authenticated/livrets'
 import { Route as AuthenticatedQuestionsRouteImport } from './routes/_authenticated/questions'
 import { Route as AuthenticatedSitesRouteImport } from './routes/_authenticated/sites'
+import { Route as ApiPublicSitesSyncRouteImport } from './routes/api/public/sites/sync'
 
 const AuthenticatedRouteRoute = AuthenticatedRouteRouteImport.update({
   id: '/_authenticated',
@@ -75,6 +76,11 @@ const AuthenticatedSitesRoute = AuthenticatedSitesRouteImport.update({
   path: '/sites',
   getParentRoute: () => AuthenticatedRouteRoute,
 } as any)
+const ApiPublicSitesSyncRoute = ApiPublicSitesSyncRouteImport.update({
+  id: '/api/public/sites/sync',
+  path: '/api/public/sites/sync',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof AuthenticatedIndexRoute
@@ -87,6 +93,7 @@ export interface FileRoutesByFullPath {
   '/livrets': typeof AuthenticatedLivretsRoute
   '/questions': typeof AuthenticatedQuestionsRoute
   '/sites': typeof AuthenticatedSitesRoute
+  '/api/public/sites/sync': typeof ApiPublicSitesSyncRoute
 }
 export interface FileRoutesByTo {
   '/auth': typeof AuthRoute
@@ -99,6 +106,7 @@ export interface FileRoutesByTo {
   '/questions': typeof AuthenticatedQuestionsRoute
   '/sites': typeof AuthenticatedSitesRoute
   '/': typeof AuthenticatedIndexRoute
+  '/api/public/sites/sync': typeof ApiPublicSitesSyncRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -113,6 +121,7 @@ export interface FileRoutesById {
   '/_authenticated/questions': typeof AuthenticatedQuestionsRoute
   '/_authenticated/sites': typeof AuthenticatedSitesRoute
   '/_authenticated/': typeof AuthenticatedIndexRoute
+  '/api/public/sites/sync': typeof ApiPublicSitesSyncRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -127,6 +136,7 @@ export interface FileRouteTypes {
     | '/livrets'
     | '/questions'
     | '/sites'
+    | '/api/public/sites/sync'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/auth'
@@ -139,6 +149,7 @@ export interface FileRouteTypes {
     | '/questions'
     | '/sites'
     | '/'
+    | '/api/public/sites/sync'
   id:
     | '__root__'
     | '/_authenticated'
@@ -152,6 +163,7 @@ export interface FileRouteTypes {
     | '/_authenticated/questions'
     | '/_authenticated/sites'
     | '/_authenticated/'
+    | '/api/public/sites/sync'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -159,6 +171,7 @@ export interface RootRouteChildren {
   AuthRoute: typeof AuthRoute
   ConnexionStoreRoute: typeof ConnexionStoreRoute
   SessionRoute: typeof SessionRoute
+  ApiPublicSitesSyncRoute: typeof ApiPublicSitesSyncRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -240,6 +253,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthenticatedSitesRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
     }
+    '/api/public/sites/sync': {
+      id: '/api/public/sites/sync'
+      path: '/api/public/sites/sync'
+      fullPath: '/api/public/sites/sync'
+      preLoaderRoute: typeof ApiPublicSitesSyncRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -271,6 +291,7 @@ const rootRouteChildren: RootRouteChildren = {
   AuthRoute: AuthRoute,
   ConnexionStoreRoute: ConnexionStoreRoute,
   SessionRoute: SessionRoute,
+  ApiPublicSitesSyncRoute: ApiPublicSitesSyncRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

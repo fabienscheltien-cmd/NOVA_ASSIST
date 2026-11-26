@@ -9,3 +9,8 @@
 # Super Admin et livrets
 - [x] Seul le Super Admin a la liste déroulante des sites (sites venant de Nova Store inclus) et attache le livret d'accueil au site choisi.
 - [x] Format exact du jeton Nova Store intégré.
+
+# Déversement des sites Nova Store
+- [x] Adresse de réception signée POST /api/public/sites/sync (tests inclus).
+- [x] « Créer un site » retiré de Sites et comptes.
+- [ ] Côté Nova Store : envoyer chaque site créé/modifié — à faire dans le projet Nova Store.
